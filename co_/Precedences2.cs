@@ -1,0 +1,158 @@
+﻿using nilnul.order;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace nilnul.task.co_
+{
+	/// <summary>
+	///  intransitive directed as order
+	/// </summary>
+	public partial class Deps
+		:
+		//nilnul.rel_._net_...<Duration>
+		nilnul.rel_.Net1<Duration>
+		
+
+		//IntransitiveDirectedRelation<Duration>
+		,
+		IEnumerable<Dep>
+		
+	{
+		//public List<Precedence> list=new List<Precedence>();
+
+		public Deps()
+		{
+
+
+		}
+
+		public IEnumerable<Duration> precedents(Duration task) {
+			foreach (var item in this)
+			{
+				if (item.second==task)
+				{
+					yield return item.first;
+				}
+			}
+		
+		}
+
+		/// <summary>
+		/// maximal of the subgraph
+		/// </summary>
+		/// <param name="tasks"></param>
+		/// <returns></returns>
+
+		public IEnumerable<Duration> maximal(IEnumerable<Duration> tasks) {
+
+			//fiter the precedence.
+
+			IEnumerable<Dep> filteredPrecedences=(
+				this as IEnumerable<Dep>
+			).Where(
+				c=>tasks.Contains(c.first) && tasks.Contains(c.second)
+			);
+
+			foreach (var item in tasks)
+			{
+				if (filteredPrecedences.Any(c => c.second == item)) {
+					continue;
+				}
+				yield return item;
+
+				
+			}
+		
+		}
+
+	
+
+
+		public Duration start {
+			get {
+				foreach (var item in tasks)
+				{
+					if (precedents(item).Count()==0)
+					{
+						return item;
+						
+					}
+					
+				}
+				///if no tasks
+				return null;
+			}
+		}
+
+		public Duration end {
+			get {
+				foreach (var item in tasks)
+				{
+					if (subsequents(item).Count()==0)
+					{
+						return item;
+						
+					}
+					
+					
+				}
+				//if the lattice is empty.
+				return null;
+			
+			}
+		}
+
+
+
+		public IEnumerable<Duration> subsequents(Duration task) {
+			foreach (var item in this)
+			{
+				if (item.first==task)
+				{
+					yield return item.second;
+					
+				}
+				
+			}
+		}
+
+
+		//public void add(Duration a,Duration b) {
+		//	base.add(new Dep(a, b));
+		//}
+
+		public HashSet<Duration> tasks {
+			get {
+				var r = new HashSet<Duration>();
+				foreach (var item in this)
+				{
+					r.Add(item.first);
+					r.Add(item.second);
+					
+				}
+				return r;
+
+			}
+		}
+
+
+
+
+		public IEnumerator<Dep> GetEnumerator()
+		{
+			foreach (var item in (this))
+			{
+				yield return new Dep(item.first, item.second);
+				
+			}
+			
+		}
+
+		System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
+		{
+			return (this as IEnumerable<Dep>).GetEnumerator();
+		}
+	}
+}
