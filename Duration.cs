@@ -7,7 +7,8 @@ using nilnul.prob.dist.inst;
 namespace nilnul.task
 {
 	/// <summary>
-	/// 
+	/// for an action: do,
+	///		we use "doing" to express the action "do" takes some time
 	/// </summary>
 	/// <remarks>
 	/// This is a task. it doesn't care about the relation about tasks, such as whether two tasks are the same.

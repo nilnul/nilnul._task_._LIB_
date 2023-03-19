@@ -14,7 +14,7 @@ namespace nilnul.task
 	///		schedule
 	///		chart
 	/// </remarks>
-	class Schedule
+	class ISchedule
 	{
 	}
 }

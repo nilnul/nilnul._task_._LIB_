@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace nilnul.task.prj.samples_
+namespace nilnul.task.prj.survey_
 {
 	/// <summary>
 	/// simulate a project to get the distribution of the time of prj

@@ -142,9 +142,9 @@ namespace nilnul.task.co_
 
 		public IEnumerator<Dep> GetEnumerator()
 		{
-			foreach (var item in (this))
+			foreach (var item in (this.mate))
 			{
-				yield return new Dep(item.first, item.second);
+				yield return new Dep(item.component, item.component1);
 				
 			}
 			
@@ -152,7 +152,7 @@ namespace nilnul.task.co_
 
 		System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
 		{
-			return (this as IEnumerable<Dep>).GetEnumerator();
+			return /*(this as IEnumerable<Dep>).*/GetEnumerator();
 		}
 	}
 }

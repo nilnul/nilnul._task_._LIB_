@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("nilnul._task_._LIB_")]
-[assembly: AssemblyDescription("task; scheduling of tasks into a project|prj.")]
+[assembly: AssemblyDescription("task; scheduling of tasks into a project|prj. Each task can be simulated using "+ nameof(System.Threading.Tasks.Task) + ";")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("nilnul.com")]
 [assembly: AssemblyProduct("nilnul._task_._LIB_")]
