@@ -47,7 +47,6 @@ namespace nilnul.task.prj.survey_
 			}
 
 			return Pmf._Create(sampleBag2);
-		
 
 		}
 
@@ -77,10 +76,8 @@ namespace nilnul.task.prj.survey_
 			Cdf densityFuncByIntervalRight = Cdf._Create(sampleBag2);
 
 			return densityFuncByIntervalRight;
-			
 
-
-			throw new NotImplementedException();
+			//throw new NotImplementedException();
 		
 		}
 

@@ -18,7 +18,7 @@ namespace nilnul.task
 	{
 		public string name;
 
-		public nilnul.prob.doubleProb.doubleSample.DistributionA distribution;
+		public nilnul.stat.dist_.borel_.Invertible4dblI  distribution;
 
 		public Duration()
 		{
@@ -41,18 +41,18 @@ namespace nilnul.task
 			return this.name;
 		}
 
-		static public nilnul.prob.doubleProb.doubleSample.DistributionA CreateDistribution(
+		static public nilnul.stat.dist_.borel_.Invertible4dblI CreateDistribution(
 			double min, double mod, double max
 		)
 		{
-			return new nilnul.prob.doubleProb.doubleSample.cdf.contains.pert.WolframX.Pert(min, mod, max);
+			return new nilnul.stat.dist_.borel_.pdfable_.beta_.Pert4dbl(min, mod, max);
 
 		}
-		static public nilnul.prob.doubleProb.doubleSample.DistributionA CreateDistribution(
+		static public nilnul.stat.dist_.borel_.Invertible4dblI CreateDistribution(
 			double const_
 		)
 		{
-			return new nilnul.prob.doubleProb.doubleSample.cdf.contains.Definite(const_);
+			return new nilnul.stat.dist_.borel_.discrete_.finite_.Definite4dbl (const_);
 
 		}
 

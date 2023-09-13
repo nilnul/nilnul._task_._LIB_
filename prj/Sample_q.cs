@@ -35,7 +35,17 @@ namespace nilnul.task.prj
 			public Rational duration;
 
 			public void sample() {
-				duration=Rational_InheritFraction.ToRational_tillDenominator(task.distribution.inverse(),10000);
+
+				var t= //nilnul.num.quotient.of_.unary_.
+					nilnul.num.quotient_.radix.ext.errable_.ieee_.bin.to_._ToRationalX.ToSignificed(
+					//Rational_InheritFraction.ToRational_tillDenominator(
+					task.distribution.sample()
+					//,10000
+				).toDenomNonnil();
+
+				duration = new Rational(
+					t.numerator,t.denominator
+				);
 
 			}
 

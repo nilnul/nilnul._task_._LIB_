@@ -12,7 +12,7 @@ namespace nilnul.task.proj
 	/// <remarks>
 	/// a collection of tasks, among which their are relations such as precedence.
 	/// </remarks>
-	public partial class Project
+	public  class Project
 	{
 		public Precedences precedences=new Precedences();
 

@@ -12,7 +12,7 @@ namespace nilnul.task
 	/// <remarks>
 	/// a collection of tasks, among which their are relations such as precedence.
 	/// </remarks>
-	public interface IPrj {
+	public interface IPrj:nilnul.task_.IProject {
 
 	}
 	public  class Prj:IPrj
@@ -32,7 +32,7 @@ namespace nilnul.task
 			;
 			foreach (var item in precedences.tasks)
 			{
-				durations.Add(item,item.distribution.inverse(random.NextDouble()));
+				durations.Add(item,item.distribution.invert(random.NextDouble()));
 				
 				
 			}
