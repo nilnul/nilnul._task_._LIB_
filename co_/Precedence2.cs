@@ -8,14 +8,14 @@ using Task = nilnul.task.Duration;
 namespace nilnul.task.co_
 {
 	/// <summary>
-	/// 
+	/// the second task cannot begin until the first task has been finished;
 	/// </summary>
 	/// <remarks>
 	/// alias:
 	///		precedence
 	///		dependence
 	/// </remarks>
-	public partial class Dep
+	public  class Dep
 		:Pair2<Duration>
 
 	{

@@ -9,7 +9,11 @@ namespace nilnul.task.co_
 	/// <summary>
 	///  intransitive directed as order
 	/// </summary>
-	public partial class Deps
+	/// alias:
+	///		precedence
+	///		dependency
+	///		dep
+	public  class Deps
 		:
 		//nilnul.rel_._net_...<Duration>
 		nilnul.rel_.Net1<Duration>
@@ -44,6 +48,10 @@ namespace nilnul.task.co_
 		/// </summary>
 		/// <param name="tasks"></param>
 		/// <returns></returns>
+		/// alias:
+		///		极大值
+		/// vs:
+		///		maximum|最大值, which is unique;
 
 		public IEnumerable<Duration> maximal(IEnumerable<Duration> tasks) {
 

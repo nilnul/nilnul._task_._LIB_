@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace nilnul.task_
 {
 	/// <summary>
-	/// an empty task; just a place holder; do nothing;
+	/// an empty task; just a place holder, a nominal one; do nothing;
 	/// </summary>
 	internal class IDoodle
 	{
