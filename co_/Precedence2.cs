@@ -15,6 +15,7 @@ namespace nilnul.task.co_
 	///		precedence
 	///		dependence
 	/// </remarks>
+	/// 
 	public  class Dep
 		:Pair2<Duration>
 

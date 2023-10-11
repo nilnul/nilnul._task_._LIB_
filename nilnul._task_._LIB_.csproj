@@ -234,6 +234,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="co_\_precedes\Li.cs" />
+    <Compile Include="IInfo.cs" />
     <Compile Include="ISlot.cs" />
     <Compile Include="nilnul0\ITask.cs" />
     <Compile Include="nilnul0\task_\IDecomposable.cs" />
@@ -241,6 +243,9 @@
     <Compile Include="nilnul0\task_\IProject.cs" />
     <Compile Include="nilnul0\task_\IRequest4decompose.cs" />
     <Compile Include="nilnul0\time\ITodo.cs" />
+    <Compile Include="schedule\IActualize.cs" />
+    <Compile Include="schedule\svr_\google\client\evt\_add\Date.cs" />
+    <Compile Include="schedule_\Concurrent.cs" />
     <Compile Include="_slot\IStart.cs" />
     <Compile Include="_slot\IDeadline.cs" />
     <Compile Include="%28timing\IBegin.cs" />
