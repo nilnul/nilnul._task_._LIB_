@@ -304,6 +304,7 @@
     <Compile Include="svr_\IZoho.cs" />
     <Compile Include="svr_\OutlookByMs.cs" />
     <Compile Include="_appoint\Stakeholder.cs" />
+    <Compile Include="_contact\Role_.cs" />
     <Compile Include="_finance_\ICost.cs" />
     <Compile Include="_finance_\IValue.cs" />
     <Compile Include="_resources\Li_.cs" />
