@@ -57,18 +57,18 @@ namespace nilnul.task.co_
 
 			//fiter the precedence.
 
-			IEnumerable<Dep> filteredPrecedences=(
+			var filteredPrecedences=(
 				this as IEnumerable<Dep>
 			).Where(
 				c=>tasks.Contains(c.first) && tasks.Contains(c.second)
-			);
+			).ToArray();
 
 			foreach (var item in tasks)
 			{
 				if (filteredPrecedences.Any(c => c.second == item)) {
-					continue;
+					continue;  /// the indegree is positive;
 				}
-				yield return item;
+				yield return item; /// the in-degree is 0; isnot this minimal?
 
 				
 			}

@@ -9,6 +9,12 @@ namespace nilnul.task_
 	/// <summary>
 	/// an empty task; just a place holder, a nominal one; do nothing;
 	/// </summary>
+	/// alias:
+	///		empty
+	///		virtual
+	///		transparent
+	///			,as specified in <see cref="nilnul.task.slate_.slot_.Rfc5545"/>
+	///		
 	internal class IDoodle
 	{
 	}

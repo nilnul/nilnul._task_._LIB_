@@ -10,6 +10,8 @@ namespace nilnul.task_
 	///
 	///	this makes task composible and decomposible;
 	/// </remarks>
+	/// vs:
+	///		<see cref="task.IPrj"/> that might be taken as a project concerning tasking, this is more explicit to regard prj as task;
 	public interface IProject:IRequest4decompose
 		//,IDecomposable or single
 	{ }
