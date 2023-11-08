@@ -19,6 +19,7 @@ namespace nilnul.task
 	///		schedule
 	///		chart
 	///		event
+	///	the default is <see cref="slate_.slot.IRecur"/>
 	/// 
 	class ISchedule
 	{

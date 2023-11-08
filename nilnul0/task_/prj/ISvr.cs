@@ -14,7 +14,7 @@ namespace nilnul.task_.prj
 	///		1) <see cref="task.co_.Dep"/> is represented;
 	///		2) <see cref="task._slate.slot_._based.Duration"/>
 	/// </summary>
-	internal class ISvr
+	internal class ISvr:nilnul.task.ISvr
 	{
 	}
 }

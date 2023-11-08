@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.time
 {
-	public interface ITodo
+	 interface ITodo
 	{
 	}
 }

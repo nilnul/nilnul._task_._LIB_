@@ -250,12 +250,14 @@
     <Compile Include="be_\INonbegun.cs" />
     <Compile Include="be_\urgent_\Important.cs" />
     <Compile Include="be_\urgent_\_important\Li_.cs" />
+    <Compile Include="co_\IPrecedent.cs" />
     <Compile Include="co_\_precedes\Li.cs" />
     <Compile Include="ISeq.cs" />
     <Compile Include="IStr.cs" />
     <Compile Include="IStream.cs" />
     <Compile Include="ISvr.cs" />
     <Compile Include="be_\IFinished.cs" />
+    <Compile Include="net_\Dac.cs" />
     <Compile Include="nilnul0\ITasks.cs" />
     <Compile Include="nilnul0\task_\Composite.cs" />
     <Compile Include="nilnul0\task_\composite\of_\ConFlow.cs" />
@@ -263,12 +265,18 @@
     <Compile Include="nilnul0\task_\composite\of_\IRemind.cs" />
     <Compile Include="nilnul0\task_\IReminder.cs" />
     <Compile Include="nilnul0\task_\prj\ISvr.cs" />
+    <Compile Include="nilnul0\task_\_prj\Parade.cs" />
+    <Compile Include="nilnul0\task_\prj\svr_\xpn_\nonsupport_\IGoogle.cs" />
+    <Compile Include="nilnul0\task_\prj\svr_\Zoho.cs" />
+    <Compile Include="nilnul0\task_\_prj_\IMgt.cs" />
+    <Compile Include="re_\IPrecedent.cs" />
     <Compile Include="re_\IDependent.cs" />
     <Compile Include="re_\Include.cs" />
     <Compile Include="re_\ISibling.cs" />
     <Compile Include="slates_\similar\IChronicle - Copy.cs" />
     <Compile Include="slate_\ISlots.cs" />
     <Compile Include="slate_\ISlot.cs" />
+    <Compile Include="slate_\slot\IRecur.cs" />
     <Compile Include="slate_\slot\seq_\IRecur.cs" />
     <Compile Include="slate_\slot_\eg_\IMeeting.cs" />
     <Compile Include="slate_\slot_\eg_\IReminder.cs" />
@@ -291,6 +299,8 @@
     <Compile Include="svr\IClient.cs" />
     <Compile Include="svr\usr\ISvc.cs" />
     <Compile Include="svr_\Google.cs" />
+    <Compile Include="svr_\IPrjSupported.cs" />
+    <Compile Include="svr_\IProgrammable.cs" />
     <Compile Include="svr_\IZoho.cs" />
     <Compile Include="svr_\OutlookByMs.cs" />
     <Compile Include="_appoint\Stakeholder.cs" />
@@ -304,12 +314,11 @@
     <Compile Include="nilnul0\task_\IDoodle.cs" />
     <Compile Include="nilnul0\task_\IProject.cs" />
     <Compile Include="nilnul0\task_\IRequest4decompose.cs" />
-    <Compile Include="nilnul0\time\ITodo.cs" />
     <Compile Include="nilnul0\task_\prj\ISample.cs" />
     <Compile Include="nilnul0\task_\prj\sample\Cpm_quotient.Stat.cs" />
     <Compile Include="nilnul0\task_\prj\sample\Cpm_quotient.Stats.cs" />
     <Compile Include="schedule\IActualize.cs" />
-    <Compile Include="schedule\svr_\google\client\evt\_add\Date.cs" />
+    <Compile Include="svr_\google\client\evt\_add\Date.cs" />
     <Compile Include="slate_\Concurrent.cs" />
     <Compile Include="_attrs\Li_.cs" />
     <Compile Include="_run\IRsc.cs" />
@@ -347,16 +356,19 @@
     <Compile Include="ISchedule.cs" />
     <Compile Include="Appoint.cs" />
     <Compile Include="schedule\svr_\IZoho.cs" />
-    <Compile Include="schedule\svr_\zoho\IClient.cs" />
+    <Compile Include="svr_\zoho\IClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="%28timing\" />
     <Folder Include="nilnul0\tasks\" />
     <Folder Include="nilnul0\task_\decomosable\" />
+    <Folder Include="nilnul0\task_\prj\NewFolder1\" />
     <Folder Include="nilnul0\task_\prj\samples\" />
     <Folder Include="nilnul0\task_\prj\sample_\" />
+    <Folder Include="nilnul0\time\" />
     <Folder Include="slate_\slot\%28timepoint\" />
     <Folder Include="slate_\_slot\" />
+    <Folder Include="svr_\api_\" />
     <Folder Include="_appoint\_assign\" />
   </ItemGroup>
   <ItemGroup>

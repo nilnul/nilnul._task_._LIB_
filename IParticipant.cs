@@ -12,5 +12,7 @@
 	/// alias:
 	///		assign
 	///		appoint
+	///		attendee
+	///			,as google puts it;
 	interface IParticipant { }
 }

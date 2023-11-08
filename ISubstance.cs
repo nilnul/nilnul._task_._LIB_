@@ -8,6 +8,7 @@
 	/// </remarks>
 	/// alias:
 	///		material
+	///		thing <see cref="task._resources.Li_.Thing"/>
 	///		
 	interface ISubstance { }
 }

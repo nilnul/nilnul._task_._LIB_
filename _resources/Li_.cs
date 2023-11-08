@@ -13,18 +13,33 @@ namespace nilnul.task._resources
 		Human
 			,
 		/// <summary>
-		/// for eample to provide some passcodes;
+		/// the space to hold things
 		/// </summary>
-		Data
+		/// <remarks>
+		/// address on a map;
+		/// </remarks>
+		Venue
 			,
 		/// <summary>
 		/// materials, raws, objects,things, documentations;
 		/// </summary>
+		/// including venue.
 		Thing
 			,
 		/// <summary>
 		/// finance
 		/// </summary>
 		Money
+			,
+		/// <summary>
+		/// for eample to provide some passcodes;
+		/// </summary>
+		/// alias:
+		///		info
+		///			=data+prog=app=rsc+usr
+		///		comm
+		///		data
+		/// 
+		Data
 	}
 }

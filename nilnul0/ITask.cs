@@ -23,7 +23,7 @@
 	///		task
 	///			"t"ime
 	public interface ITask
-		:nilnul.time.ITodo
+		//:nilnul.time.ITodo
 	{
 
 	}
