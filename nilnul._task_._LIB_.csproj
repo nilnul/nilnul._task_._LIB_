@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>nilnul.task</RootNamespace>
     <AssemblyName>nilnul._task_._LIB_</AssemblyName>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>
@@ -264,6 +264,7 @@
     <Compile Include="nilnul0\task_\composite\of_\IRecur.cs" />
     <Compile Include="nilnul0\task_\composite\of_\IRemind.cs" />
     <Compile Include="nilnul0\task_\IReminder.cs" />
+    <Compile Include="nilnul0\task_\prj\IManagement.cs" />
     <Compile Include="nilnul0\task_\prj\ISvr.cs" />
     <Compile Include="nilnul0\task_\_prj\Parade.cs" />
     <Compile Include="nilnul0\task_\prj\svr_\xpn_\nonsupport_\IGoogle.cs" />
