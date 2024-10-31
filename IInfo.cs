@@ -15,6 +15,8 @@ namespace nilnul.task
 	///  eg:
 	///		a task might be scheduled no later than a certain date;
 	/// </remarks>
+    /// alias:
+    ///		meta
 	internal class IInfo
 	{
 	}

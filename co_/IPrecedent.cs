@@ -1,7 +1,13 @@
 ﻿namespace nilnul.task.co_
 {
 	/// <summary>
-	/// the task must be done before the other task is finished;
+	/// the task must be done before the other task is started;
 	/// </summary>
+    /// alias:
+    ///		priority
+    ///		precedent
+    ///		dependent
+    ///	vs:
+    ///	    subsequent
 	interface IPrecedent { }
 }
