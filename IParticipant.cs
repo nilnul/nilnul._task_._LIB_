@@ -1,4 +1,4 @@
-﻿namespace nilnul.task
+namespace nilnul.task
 {
 	/// <summary>
 	/// associate task with persons;

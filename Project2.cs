@@ -1,4 +1,4 @@
-﻿using nilnul.task.co_;
+using nilnul.task.co_;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,16 +6,6 @@ using System.Text;
 
 namespace nilnul.task
 {
-	/// <summary>
-	/// 
-	/// </summary>
-	/// <remarks>
-	/// vs:
-	///		<see cref="nilnul.task_.IProject"/>, this emphasize that here it is a collection of tasks, among which their are relations such as precedence.
-	/// </remarks>
-	public interface IPrj:nilnul.task_.IProject {
-
-	}
 	public  class Prj:IPrj
 	{
 		public Deps precedences=new Deps();

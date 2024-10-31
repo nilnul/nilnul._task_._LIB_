@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.task.net_
+namespace nilnul.task.rel_
 {
 	/// <summary>
 	/// often a <see cref="co_.IPrecedent"/> <see cref="nilnul.rel_.INet"/>
@@ -13,4 +13,5 @@ namespace nilnul.task.net_
 		:nilnul.rel_.net_.IDac//<IPrecedent>
 	{
 	}
+
 }

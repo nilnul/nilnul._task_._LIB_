@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +19,9 @@ namespace nilnul.task.slates
 	///		chronicle
 	///			,chron
 	///			,chronic
+	///			, a cluster of slates;
+	///		planner
+	///			,a planner for a project
 	///		agenda
 	///		
 	///		Choronology
@@ -27,14 +30,15 @@ namespace nilnul.task.slates
 	///		organ
 	///		orgy
 	///		org
-	///		planner.
 	///		journal
 	///		ledger
 	///		arrange
 	///		diary
 	///		scheduler
+	///		yearbook
+	///		timeline
 	///	<see cref="nilnul.task.svr_.google.usr.Chronology"/>	
-	internal class IChronicle
+	public interface IChronicle
 	{
 	}
 }

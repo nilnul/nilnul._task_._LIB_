@@ -17,7 +17,12 @@ namespace nilnul.task_
 	///	alias:
 	///		project
 	///		,abbr:prj
-	public interface IProject:IRequest4decompose
+	public interface IProject
+		:
 		//,IDecomposable or single
+		IRequest4decompose
+		/// so task_.Proj is recursively defined:
+		 /// 1) basis: proj is task_.Proj; <see cref="task_.IProject"/>
+		 /// 2) extension: proj as a task can form a bigger proj by <see cref="task.IProject"/> which means the extension here.
 	{ }
 }

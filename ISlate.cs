@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +19,20 @@ namespace nilnul.task
 	///		schedule
 	///		chart
 	///		event
+	///		chronometer
 	///	the default is <see cref="slate_.slot.IRecur"/>
 	/// 
-	class ISchedule
+	public interface ISlate
 	{
 	}
+
+	/// <summary>
+	/// the cardinality of slates is finite;
+	/// but the <see cref="slate.ISlots"/> can be infinite.
+	/// </summary>
+	interface ISlates { }
+
+
+
+	
 }

@@ -32,7 +32,7 @@ namespace nilnul.task_.prj
 	///		dac
 	///		
 	internal class Parade
-		:nilnul.task.net_.IDac
+		:nilnul.task.rel_.IDac
 	{
 	}
 }

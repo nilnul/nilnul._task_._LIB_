@@ -14,7 +14,7 @@ namespace nilnul.task_
 	/// </remarks>
 	/// vs:
 	///		<see cref="IRequest4decompose"/>
-	///			, which might split the task into one, resulting the same task, whileas for this, the task can be split to at least two nontrivia(<see cref="IDoodle"/>) tasks;
+	///			, which might split the task into one, resulting the same task, whileas for this, the task can be split to at least two nontrivia(<see cref="IEmpty"/>) tasks;
 
 	internal interface IDecomposable
 	{

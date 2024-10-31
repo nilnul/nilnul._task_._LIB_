@@ -14,8 +14,15 @@ namespace nilnul.task_
 	///		virtual
 	///		transparent
 	///			,as specified in <see cref="nilnul.task.slate_.slot_.Rfc5545"/>
+	///		doodle
+	///		void
+	///		hollow
+	///		devoid
+	///		vacant
+	///		blank
+	///		vacuous
 	///		
-	internal class IDoodle
+	internal class IEmpty
 	{
 	}
 }

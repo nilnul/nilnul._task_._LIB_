@@ -2,6 +2,22 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
+/*
+ application:
+	note,
+		, a quick event, which is trivia to create, is a note;
+	diary,
+		,a event created in the past, or overdue is taken as a diary
+	todo|task without being schduled|slated,
+		, a event|slate that is special by setting some properties, if not supported by a schuduler softare.
+		,a task scheduled in the future. even those that are ongoing (part is in the past, part is in the future)
+	schedule,
+		,scheduled task
+	,
+	project,
+		,eg, a calendar|chronicle, can hold a project, in which tasks are correlately scheduled, and resources management is added.
+ */
+
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
