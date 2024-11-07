@@ -1,4 +1,4 @@
-﻿namespace nilnul.task
+namespace nilnul.task
 {
 	/// <summary>
 	/// location for the task to happen;

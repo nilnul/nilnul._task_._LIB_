@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace nilnul.task.rel_
 	/// often a <see cref="co_.IPrecedent"/> <see cref="nilnul.rel_.INet"/>
 	/// </summary>
 	public interface IDac
-		:nilnul.rel_.net_.IDac//<IPrecedent>
+		:nilnul.rel_.IDac//<IPrecedent>
 	{
 	}
 
