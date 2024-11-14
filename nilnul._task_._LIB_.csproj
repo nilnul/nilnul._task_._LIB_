@@ -154,7 +154,7 @@
       <HintPath>packages\nilnul.math._calculus_._LIB_.1.1.240824.151617\lib\net48\nilnul.math._calculus_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.complex._func_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num.complex._func_._LIB_.1.0.241101.111451\lib\net48\nilnul.num.complex._func_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num.complex._func_._LIB_.1.0.241114.151037\lib\net48\nilnul.num.complex._func_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.real._func_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.num.real._func_._LIB_.1.1.240820.161945\lib\net48\nilnul.num.real._func_._LIB_.dll</HintPath>
@@ -163,10 +163,10 @@
       <HintPath>..\..\.deps\nilnul.num.real._matrix_._LIB_.1.1.241114.81559\lib\net48\nilnul.num.real._matrix_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.real._stream_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num.real._stream_._LIB_.1.0.240829.24927\lib\net48\nilnul.num.real._stream_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num.real._stream_._LIB_.1.0.241114.144946\lib\net48\nilnul.num.real._stream_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._complex_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._complex_._LIB_.1.1.240820.174234\lib\net48\nilnul.num._complex_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._complex_._LIB_.1.1.241114.150250\lib\net48\nilnul.num._complex_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._integer_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.num._integer_._LIB_.1.1.241104.100014\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
@@ -187,7 +187,7 @@
       <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.241109.121956\lib\net48\nilnul._character_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._collection_._LIB__, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._collection_._LIB__.1.0.241111.140016\lib\net48\nilnul._collection_._LIB__.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._collection_._LIB__.1.0.241114.150555\lib\net48\nilnul._collection_._LIB__.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul._fs_._LIB_.2.1.241112.70302\lib\net48\nilnul._fs_._LIB_.dll</HintPath>
