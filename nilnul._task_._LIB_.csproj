@@ -136,10 +136,10 @@
       <HintPath>packages\nilnul.collection_._axiomatic_._LIB_.1.0.240821.165535\lib\net48\nilnul.collection_._axiomatic_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.collection_._discrete_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.collection_._discrete_._LIB_.1.1.241110.45206\lib\net48\nilnul.collection_._discrete_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.collection_._discrete_._LIB_.1.1.241119.144839\lib\net48\nilnul.collection_._discrete_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.geometry._planar_._LIB_.1.1.241114.131055\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.geometry._planar_._LIB_.1.1.241118.103136\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.lang_._cognom_._LIB_, Version=2.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.lang_._cognom_._LIB_.2.0.240820.191858\lib\net48\nilnul.lang_._cognom_._LIB_.dll</HintPath>
@@ -160,7 +160,7 @@
       <HintPath>packages\nilnul.num.real._func_._LIB_.1.1.240820.161945\lib\net48\nilnul.num.real._func_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.real._matrix_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num.real._matrix_._LIB_.1.1.241114.81559\lib\net48\nilnul.num.real._matrix_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num.real._matrix_._LIB_.1.1.241119.144308\lib\net48\nilnul.num.real._matrix_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.real._stream_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul.num.real._stream_._LIB_.1.0.241114.144946\lib\net48\nilnul.num.real._stream_._LIB_.dll</HintPath>
@@ -172,10 +172,10 @@
       <HintPath>packages\nilnul.num._integer_._LIB_.1.1.241104.100014\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._quotient_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._quotient_._LIB_.1.1.240820.181307\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.241119.142713\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.241114.121906\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.241119.143308\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.rel._graph_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.rel._graph_._LIB_.1.1.240823.134742\lib\net48\nilnul.rel._graph_._LIB_.dll</HintPath>
@@ -187,7 +187,7 @@
       <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.241109.121956\lib\net48\nilnul._character_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._collection_._LIB__, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._collection_._LIB__.1.0.241114.150555\lib\net48\nilnul._collection_._LIB__.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._collection_._LIB__.1.0.241119.134603\lib\net48\nilnul._collection_._LIB__.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul._fs_._LIB_.2.1.241112.70302\lib\net48\nilnul._fs_._LIB_.dll</HintPath>
@@ -196,7 +196,7 @@
       <HintPath>..\..\.deps\nilnul._geometry_._LIB_.1.0.241114.121900\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._lang_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._lang_._LIB_.1.1.241113.13844\lib\net48\nilnul._lang_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._lang_._LIB_.1.1.241120.42953\lib\net48\nilnul._lang_._LIB_.dll</HintPath>
     </Reference>
     <!--<Reference Include="nilnul._geometry_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <HintPath>packages\nilnul._geometry_._LIB_.1.0.240820.201007\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
@@ -211,22 +211,25 @@
       <HintPath>packages\nilnul._num_._LINQ_.1.1.241104.93627\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.241114.104750\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.241121.92704\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._relation_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul._relation_._LIB_.1.0.241120.113237\lib\net48\nilnul._relation_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.241111.131420\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.241121.122118\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._set_._LIB_.1.1.240831.105511\lib\net48\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._stat_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._stat_._LIB_.1.1.241019.130036\lib\net48\nilnul._stat_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._stat_._LIB_.1.1.241115.110034\lib\net48\nilnul._stat_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._time_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._time_._LIB_.1.1.241114.104154\lib\net48\nilnul._time_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._time_._LIB_.1.1.241120.113832\lib\net48\nilnul._time_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.241111.31701\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.241121.40227\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._win_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._win_._LIB_.1.1.241018.181651\lib\net48\nilnul._win_._LIB_.dll</HintPath>
@@ -349,10 +352,13 @@
     <Compile Include="be_\urgent_\_important\Li_.cs" />
     <Compile Include="co_\IPrecedent.cs" />
     <Compile Include="co_\_precedes\Li.cs" />
+    <Compile Include="durant_\IDefinite.cs" />
+    <Compile Include="IDuration.cs" />
     <Compile Include="IOccasion.cs" />
     <Compile Include="IPrj.cs" />
     <Compile Include="IRemind.cs" />
     <Compile Include="ISeq.cs" />
+    <Compile Include="ISlates.cs" />
     <Compile Include="ISplit.cs" />
     <Compile Include="IStr.cs" />
     <Compile Include="IStream.cs" />
@@ -373,6 +379,7 @@
     <Compile Include="prj_\fusi\ICriticalPathMethod.cs" />
     <Compile Include="prj_\fusi\of_\ICoerce.cs" />
     <Compile Include="prj_\IFusiform.cs" />
+    <Compile Include="prj_\IPensive.cs" />
     <Compile Include="rel_\dac_\IFusiform.cs" />
     <Compile Include="rel_\dac_\IUnimax.cs" />
     <Compile Include="rel_\IConsequent.cs" />
@@ -390,10 +397,8 @@
     <Compile Include="nilnul0\task_\IReminder.cs" />
     <Compile Include="prj\ISvr.cs" />
     <Compile Include="nilnul0\task_\xpn_\IToNotDo.cs" />
-    <Compile Include="nilnul0\task_\_prj\Parade.cs" />
     <Compile Include="prj\svr_\xpn_\nonsupport_\IGoogle.cs" />
     <Compile Include="prj\svr_\Zoho.cs" />
-    <Compile Include="nilnul0\task_\_prj_\IMgt.cs" />
     <Compile Include="nilnul0\time\bound_\clopen_\daybreak_\Tasking.cs" />
     <Compile Include="rel_\prec\node\IAntequent.cs" />
     <Compile Include="rel_\prec\node\ISubsequent.cs" />
@@ -445,6 +450,8 @@
     <Compile Include="svr_\OutlookByMs.cs" />
     <Compile Include="_appoint\Stakeholder.cs" />
     <Compile Include="_contact\Role_.cs" />
+    <Compile Include="IDurant.cs" />
+    <Compile Include="_durant_\IDistribution.cs" />
     <Compile Include="_finance_\ICost.cs" />
     <Compile Include="_finance_\IValue.cs" />
     <Compile Include="_remind\alarm\IRepeat.cs" />
@@ -459,15 +466,15 @@
     <Compile Include="nilnul0\task_\IProject.cs" />
     <Compile Include="nilnul0\task_\IRequest4decompose.cs" />
     <Compile Include="prj\ISample.cs" />
-    <Compile Include="prj\sample\Cpm_quotient.Stat.cs" />
-    <Compile Include="prj\sample\Cpm_quotient.Stats.cs" />
+    <Compile Include="prj\sample\_cpm\Cpm_quotient.Stat.cs" />
+    <Compile Include="prj\sample\_cpm\Cpm_quotient.Stats.cs" />
     <Compile Include="schedule\IActualize.cs" />
     <Compile Include="svr_\google\client\evt\_add\Date.cs" />
     <Compile Include="slate_\Concurrent.cs" />
     <Compile Include="_attrs\Li_.cs" />
     <Compile Include="_run\IRsc.cs" />
     <Compile Include="_slate\MinStart.cs" />
-    <Compile Include="_slate\slot_\_based\NewFolder1\Duration - Copy.cs" />
+    <Compile Include="_durant_\NewFolder1\Duration - Copy.cs" />
     <Compile Include="_slate\_slot\IStart.cs" />
     <Compile Include="_slate\_slot\IDeadline.cs" />
     <Compile Include="_slate\_slot\IBegin.cs" />
@@ -490,24 +497,23 @@
     <Compile Include="prj\sample\Cpm_quotient.cs" />
     <Compile Include="prj\Sample_quotient.cs" />
     <Compile Include="Project2.cs" />
-    <Compile Include="co_\Precedences2.cs" />
-    <Compile Include="co_\Precedence2.cs" />
-    <Compile Include="_slate\slot_\_based\Duration.cs" />
+    <Compile Include="_prj_\Priors.cs" />
+    <Compile Include="_prj_\Prior.cs" />
+    <Compile Include="Durant.cs" />
     <Compile Include="slate_\slot_\_based\duration_\Pert.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="prj\survey_\simulate_\Project_DemoInstance.cs" />
-    <Compile Include="prj\survey_\simulate_\DemoX.cs" />
+    <Compile Include="prj\survey_\simulate_\eg_\Demo.cs" />
+    <Compile Include="prj\survey_\simulate_\eg_\DemoX.cs" />
     <Compile Include="ISlate.cs" />
     <Compile Include="Appoint.cs" />
     <Compile Include="schedule\svr_\IZoho.cs" />
     <Compile Include="svr_\zoho\IClient.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="co_\prior\" />
     <Folder Include="nilnul0\task_\decomosable\" />
-    <Folder Include="nilnul0\task_\empty\" />
-    <Folder Include="prj\NewFolder1\" />
-    <Folder Include="prj\samples\" />
-    <Folder Include="prj\sample_\" />
+    <Folder Include="prj\survey_\simulate_\eg_\_demo\" />
+    <Folder Include="prj_\_pensive_\" />
     <Folder Include="rel\" />
     <Folder Include="rel_\prec\node\attr_\" />
     <Folder Include="slates\chron_\" />
@@ -519,7 +525,7 @@
     <Folder Include="slot\co_\aft\" />
     <Folder Include="slot\co_\aft_\xpn_\" />
     <Folder Include="svr_\api_\" />
-    <Folder Include="_appoint\_assign\" />
+    <Folder Include="_slate\slot_\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,12 +1,10 @@
-﻿using nilnul.num.rational;
-using nilnul.task.co_;
+using nilnul.num.rational;
 using nilnul.task.prj.sample;
-using System;
+using nilnul.task._prj_;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
-namespace nilnul.task.prj.survey_.simulate_
+namespace nilnul.task.prj.survey_.simulate_.eg_
 {
 	public  class Demo
 	{
@@ -35,7 +33,7 @@ namespace nilnul.task.prj.survey_.simulate_
 			tasks[7].distribution = Duration.CreateDistribution(0);
 			//generate lattice
 
-			Deps precedenceCollection = new Deps();
+			Priors precedenceCollection = new Priors();
 			precedenceCollection.add(tasks[0], tasks[1]);
 			precedenceCollection.add(tasks[0], tasks[2]);
 			precedenceCollection.add(tasks[1], tasks[3]);

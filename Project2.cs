@@ -1,14 +1,15 @@
-using nilnul.task.co_;
+using nilnul.task._prj_;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace nilnul.task
 {
-	public  class Prj:IPrj
+	/// <summary>
+	/// each task is <see cref="task.Durant"/>
+	/// </summary>
+	public  class Prj:prj_.IPensive
 	{
-		public Deps precedences=new Deps();
+		public Priors precedences=new Priors();
 
 		public Prj()
 		{
@@ -17,6 +18,11 @@ namespace nilnul.task
 
 		public Dictionary<Duration,double> durations;	//realized
 
+
+		/// <summary>
+		/// sample
+		/// </summary>
+		/// <returns></returns>
 		public Dictionary<Duration,double> durationRealized() {
 			durations=new Dictionary<Duration,double>();
 			Random random=new Random();
@@ -46,6 +52,12 @@ namespace nilnul.task
 
 		
 		//}
+
+		/// <summary>
+		/// sample many times; survey
+		/// </summary>
+		/// <param name="times"></param>
+		/// <returns></returns>
 
 		public List<Dictionary<Duration,double>> repeat(uint times) {
 

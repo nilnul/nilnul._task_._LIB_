@@ -1,4 +1,4 @@
-﻿namespace nilnul.task.co_
+namespace nilnul.task.co_
 {
 	/// <summary>
 	/// the task must be done before the other task is started;
@@ -9,5 +9,5 @@
     ///		dependent
     ///	vs:
     ///	    subsequent
-	interface IPrecedent { }
+	public interface IPrior { }
 }

@@ -1,14 +1,14 @@
-﻿using nilnul.prob.rationalMeasure.empirical;
+using nilnul.prob.rationalMeasure.empirical;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace nilnul.task.prj.survey_.simulate_
+namespace nilnul.task.prj.survey_.simulate_.eg_
 {
 	static public class DemoX
 	{
-		static private nilnul.task.prj.survey_.Simulate _simulation=new nilnul.task.prj.survey_.Simulate(nilnul.task.prj.survey_.simulate_.Demo.proj);
+		static private nilnul.task.prj.survey_.Simulate _simulation=new nilnul.task.prj.survey_.Simulate(nilnul.task.prj.survey_.simulate_.eg_.Demo.proj);
 
 		static public nilnul.task.prj.survey_.Simulate simulation
 		{

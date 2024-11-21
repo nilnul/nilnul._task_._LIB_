@@ -1,11 +1,11 @@
-﻿using nilnul.relation;
+using nilnul.relation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Task = nilnul.task.Duration;
 
-namespace nilnul.task.co_
+namespace nilnul.task._prj_
 {
 	/// <summary>
 	/// the second task cannot begin until the first task has been finished;
@@ -16,13 +16,15 @@ namespace nilnul.task.co_
 	///		dependence
 	/// </remarks>
 	/// 
-	public  class Dep
+	public  class Prior
 		:Pair2<Duration>
+		,
+		nilnul.task.co_.IPrior
 
 	{
 		
 
-		public Dep(Duration a,Duration b)
+		public Prior(Duration a,Duration b)
 			:base(a,b)
 		{
 			

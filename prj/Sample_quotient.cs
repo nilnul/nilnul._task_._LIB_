@@ -1,4 +1,4 @@
-﻿using nilnul.num.rational;
+using nilnul.num.rational;
 using nilnul.task.co_;
 using System;
 using System.Collections.Generic;
@@ -29,6 +29,10 @@ namespace nilnul.task.prj
 		}
 
 
+		/// <summary>
+		/// the state is:
+		/// durant sampled. 
+		/// </summary>
 		public class TaskDuration {
 			public Duration task;
 
@@ -61,6 +65,7 @@ namespace nilnul.task.prj
 
 		}
 
+
 		static public Sample_quotient Realize(Prj proj) {
 
 			var r = new Sample_quotient();
@@ -70,6 +75,12 @@ namespace nilnul.task.prj
 			
 		}
 
+		/// <summary>
+		/// samples
+		/// </summary>
+		/// <param name="proj"></param>
+		/// <param name="times"></param>
+		/// <returns></returns>
 		static public IEnumerable< Sample_quotient> Realize(Prj proj, int times)
 		{
 

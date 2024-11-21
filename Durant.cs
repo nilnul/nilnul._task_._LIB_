@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,25 +13,27 @@ namespace nilnul.task
 	/// <remarks>
 	/// This is a task. it doesn't care about the relation about tasks, such as whether two tasks are the same.
 	/// </remarks>
-	public  class Duration
-		: IEquatable<Duration>
+	public  class Durant
+		: IEquatable<Durant>
+		,
+		IDurant
 	{
 		public string name;
 
-		public nilnul.stat.dist_.borel_.Invertible4dblI  distribution;
+		public nilnul.stat.dist_.borel_.Invertible4dblI  duration;
 
-		public Duration()
+		public Durant()
 		{
 		}
 					
 
-		public Duration(string name)
+		public Durant(string name)
 		{
 			this.name = name;
 		}
 					
 
-		public bool Equals(Duration other)
+		public bool Equals(Durant other)
 		{
 			return this == other;
 		}

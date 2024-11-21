@@ -1,10 +1,11 @@
-﻿using nilnul.order;
+using nilnul.order;
+using nilnul.task.co_;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace nilnul.task.co_
+namespace nilnul.task._prj_
 {
 	/// <summary>
 	///  intransitive directed as order
@@ -13,7 +14,7 @@ namespace nilnul.task.co_
 	///		precedence
 	///		dependency
 	///		dep
-	public  class Deps
+	public  class Priors
 		:
 		//nilnul.rel_._net_...<Duration>
 		nilnul.rel_.Net1<Duration>
@@ -21,12 +22,14 @@ namespace nilnul.task.co_
 
 		//IntransitiveDirectedRelation<Duration>
 		,
-		IEnumerable<Dep>
+		IEnumerable<Prior>
+		//,
+		//nilnul.rel_.INonCelibate
 		
 	{
 		//public List<Precedence> list=new List<Precedence>();
 
-		public Deps()
+		public Priors()
 		{
 
 
@@ -58,7 +61,7 @@ namespace nilnul.task.co_
 			//fiter the precedence.
 
 			var filteredPrecedences=(
-				this as IEnumerable<Dep>
+				this as IEnumerable<Prior>
 			).Where(
 				c=>tasks.Contains(c.first) && tasks.Contains(c.second)
 			).ToArray();
@@ -148,11 +151,11 @@ namespace nilnul.task.co_
 
 
 
-		public IEnumerator<Dep> GetEnumerator()
+		public IEnumerator<Prior> GetEnumerator()
 		{
 			foreach (var item in (this.mate))
 			{
-				yield return new Dep(item.component, item.component1);
+				yield return new Prior(item.component, item.component1);
 				
 			}
 			

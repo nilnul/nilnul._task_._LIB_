@@ -11,8 +11,8 @@ namespace nilnul.task
 	/// </summary>
 	/// <remarks>
 	/// this is not, but based on, time server;
-	/// for <see cref="nilnul.task_.IProject"/>, <see cref="nilnul.task.co_.Dep"/> exists among subtasks;
-	/// <see cref="task.svr_.Google"/> doesnot support the <see cref="nilnul.task.co_.Dep"/> or un<see cref="nilnul.task.slate_"/>.
+	/// for <see cref="nilnul.task_.IProject"/>, <see cref="nilnul.task.co_.Prior"/> exists among subtasks;
+	/// <see cref="task.svr_.Google"/> doesnot support the <see cref="nilnul.task.co_.Prior"/> or un<see cref="nilnul.task.slate_"/>.
 	/// </remarks>
 	internal class ISvr
 	{

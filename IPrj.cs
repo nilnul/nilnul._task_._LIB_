@@ -15,6 +15,7 @@ namespace nilnul.task
 	/// alias:
 	///		prj
 	///			,<see cref="nilnul.dev.prj"/> is also such a project.
+	///			,projective, predictive
 	///		proj
 	///			,might confuse with <see cref="nilnul.geometry.planar.map_.IProjection"/>
 	///			
@@ -39,7 +40,7 @@ namespace nilnul.task
 		task.rel_.IDac
 		,
 		 //ITask
-		 task_.IProject
+		 task_.IProject /// extension clause in recursion definition. <see cref="nilnul.task_.IProject"/> for the recursion definition. 
 
 	{
 

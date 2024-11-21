@@ -7,4 +7,5 @@ namespace nilnul.task
 	/// alias:
 	///		context
 	interface IOccasion { }
+
 }

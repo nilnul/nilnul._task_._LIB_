@@ -14,7 +14,7 @@ namespace nilnul
 	///			
 	///  also we can incorporate some project management to allow:
 	///		1) task inclusion, <see cref="nilnul.task.re_.Include"/>
-	///		2) task precedence <see cref="nilnul.task.co_.Dep"/>
+	///		2) task precedence <see cref="nilnul.task.co_.Prior"/>
 	///
 	/// we can also group some tasks, and we can then apply prjMgt to that planner; <see cref="nilnul.task.slates.IChronicle"/> can be taken as a prj, and we have multiple prjs running parallelly;
 	/// </remarks>

@@ -4,13 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.task.prj
+namespace nilnul.task.durant_
 {
 	/// <summary>
-	/// prj is a scheduled;
-	/// the actual of it has not happened. We can sample one to emulate the actual;
+	/// the distribution of the duration 
 	/// </summary>
-	public interface ISample
+	/// <remarks>
+	/// 
+	/// </remarks>
+	internal class IDefinite:IDurant
+		,
+		task.IDuration
 	{
 	}
 }
