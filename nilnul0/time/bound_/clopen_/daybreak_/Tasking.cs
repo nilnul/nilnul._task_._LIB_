@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +15,7 @@ namespace nilnul.time.bound_.clopen_.daybreak_
 	///		daybreak
 	///		作息
 	///		routine
+	///		settle
 	///	
 	static public class _TaskingX
 	{
@@ -30,6 +31,7 @@ namespace nilnul.time.bound_.clopen_.daybreak_
 		///		reflect
 		///		reset
 		///		rest
+		///		
 		/// or:
 		///		19:30?
 		///		21:00?
