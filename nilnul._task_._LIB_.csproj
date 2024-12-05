@@ -117,26 +117,8 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\MathNet.Numerics.5.0.0\lib\net48\MathNet.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Msagl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=6baa2c1345e83b6e, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Msagl.1.1.6\lib\netstandard2.0\Microsoft.Msagl.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Msagl.Drawing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=6baa2c1345e83b6e, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Msagl.Drawing.1.1.6\lib\netstandard2.0\Microsoft.Msagl.Drawing.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Msagl.GraphViewerGdi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=6baa2c1345e83b6e, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Msagl.GraphViewerGDI.1.1.7\lib\net472\Microsoft.Msagl.GraphViewerGdi.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="nilnul.collection_._axiomatic_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.collection_._axiomatic_._LIB_.1.0.240821.165535\lib\net48\nilnul.collection_._axiomatic_._LIB_.dll</HintPath>
-    </Reference>
-    <Reference Include="nilnul.collection_._discrete_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.collection_._discrete_._LIB_.1.1.241123.135147\lib\net48\nilnul.collection_._discrete_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul.geometry._planar_._LIB_.1.1.241127.25549\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
@@ -156,9 +138,6 @@
     <Reference Include="nilnul.num.complex._func_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul.num.complex._func_._LIB_.1.0.241114.151037\lib\net48\nilnul.num.complex._func_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul.num.real._func_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num.real._func_._LIB_.1.1.240820.161945\lib\net48\nilnul.num.real._func_._LIB_.dll</HintPath>
-    </Reference>
     <Reference Include="nilnul.num.real._matrix_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul.num.real._matrix_._LIB_.1.1.241119.144308\lib\net48\nilnul.num.real._matrix_._LIB_.dll</HintPath>
     </Reference>
@@ -172,10 +151,10 @@
       <HintPath>packages\nilnul.num._integer_._LIB_.1.1.241104.100014\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._quotient_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.241119.142713\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.241202.173110\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.241127.23152\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.241205.104252\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.rel._graph_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.rel._graph_._LIB_.1.1.240823.134742\lib\net48\nilnul.rel._graph_._LIB_.dll</HintPath>
@@ -186,9 +165,6 @@
     <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.241125.83507\lib\net48\nilnul._character_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._collective_._LIB__, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._collective_._LIB__.1.0.241124.111601\lib\net48\nilnul._collective_._LIB__.dll</HintPath>
-    </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul._fs_._LIB_.2.1.241122.113056\lib\net48\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
@@ -196,7 +172,7 @@
       <HintPath>..\..\.deps\nilnul._geometry_._LIB_.1.0.241114.121900\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._lang_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._lang_._LIB_.1.1.241120.42953\lib\net48\nilnul._lang_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._lang_._LIB_.1.1.241201.101525\lib\net48\nilnul._lang_._LIB_.dll</HintPath>
     </Reference>
     <!--<Reference Include="nilnul._geometry_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <HintPath>packages\nilnul._geometry_._LIB_.1.0.240820.201007\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
@@ -213,11 +189,8 @@
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.241125.83253\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._relation_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._relation_._LIB_.1.0.241123.141017\lib\net48\nilnul._relation_._LIB_.dll</HintPath>
-    </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.241121.122118\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.241130.102439\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._set_._LIB_.1.1.240831.105511\lib\net48\nilnul._set_._LIB_.dll</HintPath>
@@ -226,10 +199,10 @@
       <HintPath>..\..\.deps\nilnul._stat_._LIB_.1.1.241123.150243\lib\net48\nilnul._stat_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._time_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._time_._LIB_.1.1.241127.101534\lib\net48\nilnul._time_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._time_._LIB_.1.1.241202.192255\lib\net48\nilnul._time_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.241125.83837\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.241203.71000\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._win_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._win_._LIB_.1.1.241018.181651\lib\net48\nilnul._win_._LIB_.dll</HintPath>
@@ -346,9 +319,16 @@
     <Compile Include="be_\IIgnorable.cs" />
     <Compile Include="be_\urgent_\Important.cs" />
     <Compile Include="be_\urgent_\_important\Li_.cs" />
-    <Compile Include="co_\IPrecedent.cs" />
+    <Compile Include="co_\IPrior.cs" />
+    <Compile Include="co_\prior\of_\INormalize.cs" />
+    <Compile Include="co_\prior_\IBuffer.cs" />
+    <Compile Include="co_\prior_\IEndThenEnd.cs" />
+    <Compile Include="co_\prior_\IEndThenStart.cs" />
+    <Compile Include="co_\prior_\IStartAndEnd.cs" />
+    <Compile Include="co_\prior_\IStartAndStart.cs" />
     <Compile Include="co_\_precedes\Li.cs" />
     <Compile Include="durant_\IDefinite.cs" />
+    <Compile Include="duration\IDistribution.cs" />
     <Compile Include="IDuration.cs" />
     <Compile Include="IOccasion.cs" />
     <Compile Include="IPrj.cs" />
@@ -360,6 +340,7 @@
     <Compile Include="IStream.cs" />
     <Compile Include="ISvr.cs" />
     <Compile Include="be_\IFinished.cs" />
+    <Compile Include="nilnul0\deed_\empty\ISlot.cs" />
     <Compile Include="nilnul0\deed_\Fire9forget.cs" />
     <Compile Include="nilnul0\deed_\IPlanned.cs" />
     <Compile Include="nilnul0\deed_\IReconciled.cs" />
@@ -371,9 +352,11 @@
     <Compile Include="nilnul0\task_\IMask.cs" />
     <Compile Include="nilnul0\task_\mask\IActual.cs" />
     <Compile Include="nilnul0\time\bound_\ISprint.cs" />
+    <Compile Include="prj_\def\ICriticalPathMethod.cs" />
     <Compile Include="prj_\fusi\cpm\IProgramEvaluation9reviewTechnique.cs" />
     <Compile Include="prj_\fusi\ICriticalPathMethod.cs" />
     <Compile Include="prj_\fusi\of_\ICoerce.cs" />
+    <Compile Include="prj_\IDefinite.cs" />
     <Compile Include="prj_\IFusiform.cs" />
     <Compile Include="prj_\IPensive.cs" />
     <Compile Include="rel_\dac_\IFusiform.cs" />
@@ -419,6 +402,7 @@
     <Compile Include="slate_\slot\seq_\IRecur.cs" />
     <Compile Include="slate_\slot_\eg_\IMeeting.cs" />
     <Compile Include="slate_\slot_\eg_\IReminder.cs" />
+    <Compile Include="slate_\slot_\INote.cs" />
     <Compile Include="slate_\slot_\Now2inf.cs" />
     <Compile Include="slate_\slot_\now_\_AdlibX.cs" />
     <Compile Include="slate_\slot_\thence_\Defer.cs" />
@@ -450,6 +434,7 @@
     <Compile Include="_durant_\IDistribution.cs" />
     <Compile Include="_finance_\ICost.cs" />
     <Compile Include="_finance_\IValue.cs" />
+    <Compile Include="_prj_\_prior\ITodo.cs" />
     <Compile Include="_remind\alarm\IRepeat.cs" />
     <Compile Include="_remind\alarm\repeat\ITrigger.cs" />
     <Compile Include="_remind\_alarm\Li_.cs" />
@@ -506,9 +491,9 @@
     <Compile Include="svr_\zoho\IClient.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="co_\prior\" />
+    <Folder Include="co_\prior_\end9end\" />
     <Folder Include="nilnul0\task_\decomosable\" />
-    <Folder Include="prj\survey_\simulate_\eg_\_demo\" />
+    <Folder Include="nilnul0\todo\" />
     <Folder Include="prj_\_pensive_\" />
     <Folder Include="rel\" />
     <Folder Include="rel_\prec\node\attr_\" />

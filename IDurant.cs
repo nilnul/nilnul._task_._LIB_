@@ -20,6 +20,8 @@ namespace nilnul.task
 	///		dure
 	///		dural
 	///		durate
+	///		distribution
+	///		distr
 	///		
 	public interface IDurant
 	{

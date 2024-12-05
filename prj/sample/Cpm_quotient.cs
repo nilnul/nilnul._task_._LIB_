@@ -1,4 +1,4 @@
-﻿using nilnul.num.rational;
+using nilnul.num.rational;
 using nilnul.order;
 using nilnul.relation;
 using nilnul.task.co_;
@@ -13,6 +13,7 @@ namespace nilnul.task.prj.sample
 	/// <summary>
 	/// after sample, compute the timing of the proj. critical path method
 	/// </summary>
+	/// <see cref="prj_.def.ICriticalPathMethod"/>
 	public partial class Cpm_quotient
 	{
 		private Sample_quotient _realization;

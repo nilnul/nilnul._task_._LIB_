@@ -7,10 +7,12 @@ using System.Threading.Tasks;
 namespace nilnul.task.prj
 {
 	/// <summary>
-	/// prj is a scheduled;
-	/// the actual of it has not happened. We can sample one to emulate the actual;
+	/// a sample of a prj;
+	/// prj is a scheduled; the actual of it has not happened. We can sample one to emulate the actual;
 	/// </summary>
+	/// <see cref="task.prj_.IDefinite"/>
 	public interface ISample
+		
 	{
 	}
 }

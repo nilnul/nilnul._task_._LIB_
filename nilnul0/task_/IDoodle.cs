@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +9,9 @@ namespace nilnul.task_
 	/// <summary>
 	/// an empty task; just a place holder, a nominal one; do nothing;
 	/// </summary>
+	/// <remarks>
+	/// note this is an empty task, not empty slate. Hence it can be <see cref="task.ISlate"/> into a nontrivial duration.
+	/// </remarks>
 	/// alias:
 	///		empty
 	///		virtual
@@ -22,7 +25,7 @@ namespace nilnul.task_
 	///		blank
 	///		vacuous
 	///		
-	internal class IEmpty
+	public interface IEmpty:ITask
 	{
 	}
 }

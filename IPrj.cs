@@ -18,7 +18,8 @@ namespace nilnul.task
 	///			,projective, predictive
 	///		proj
 	///			,might confuse with <see cref="nilnul.geometry.planar.map_.IProjection"/>
-	///			
+	///		plan:
+	///		
 	/// vs:
 	///		projection|projective, which is <see cref="nilnul._rel.map_."/>
 	///			

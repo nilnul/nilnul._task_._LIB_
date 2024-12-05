@@ -26,4 +26,6 @@ namespace nilnul.task.prj_
 	public interface IPensive:IPrj
 	{
 	}
+
+
 }

@@ -7,6 +7,7 @@ namespace nilnul.task.co_
     ///		priority
     ///		precedent
     ///		dependent
+	///		then
     ///	vs:
     ///	    subsequent
 	public interface IPrior { }
