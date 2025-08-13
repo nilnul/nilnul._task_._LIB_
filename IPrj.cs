@@ -2,6 +2,7 @@ namespace nilnul.task
 {
 	/// <summary>
 	/// the <see cref="task.rel_.IPrecedent"/> forms a <see cref="rel_.IDac"/>.
+	/// it's upon <see cref="nilnul.ITask"/>, not necessarily slated.
 	/// </summary>
 	/// <remarks>
 	/// On the rel, the properties (such as labor, materials, data)  of each task, or some tasks can be calculated;

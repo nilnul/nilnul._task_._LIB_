@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +12,8 @@ namespace nilnul.task.slate_
 	/// <remarks>
 	/// this is a time.ext.bound to allow for [start, infinite] syntax, or in other words, simply a start time and no end time;
 	/// </remarks>
-	internal class ISlot
+	/// <see cref="nilnul.task.ISlot"/>
+	public interface ISlot:task.ISlot
 	{
 	}
 

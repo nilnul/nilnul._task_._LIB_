@@ -133,6 +133,9 @@ namespace nilnul.task.prj.sample
 
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
 		private void _computeEsEf()
 		{
 			IEnumerable<Duration> minimals = new[] { realization.project.precedences.start };

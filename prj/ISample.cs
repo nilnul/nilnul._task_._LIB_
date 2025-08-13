@@ -10,7 +10,10 @@ namespace nilnul.task.prj
 	/// a sample of a prj;
 	/// prj is a scheduled; the actual of it has not happened. We can sample one to emulate the actual;
 	/// </summary>
-	/// <see cref="task.prj_.IDefinite"/>
+	/// <remarks>
+	/// to: <see cref="task.prj_.IDefinite"/>
+	///
+	/// </remarks>
 	public interface ISample
 		
 	{

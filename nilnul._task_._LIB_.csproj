@@ -108,71 +108,89 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DotNetZip, Version=1.16.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\DotNetZip.1.16.0\lib\net40\DotNetZip.dll</HintPath>
-    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\MathNet.Numerics.5.0.0\lib\net48\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.8, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\Microsoft.Bcl.AsyncInterfaces.9.0.8\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Msagl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=6baa2c1345e83b6e, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\Microsoft.Msagl.1.1.6\lib\netstandard2.0\Microsoft.Msagl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Msagl.Drawing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=6baa2c1345e83b6e, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\Microsoft.Msagl.Drawing.1.1.6\lib\netstandard2.0\Microsoft.Msagl.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Msagl.GraphViewerGdi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=6baa2c1345e83b6e, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\Microsoft.Msagl.GraphViewerGDI.1.1.7\lib\net472\Microsoft.Msagl.GraphViewerGdi.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\.deps\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.collection_._discrete_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul.collection_._discrete_._LIB_.1.1.241123.135147\lib\net48\nilnul.collection_._discrete_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.geometry._planar_._LIB_.1.1.241127.25549\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.geometry._planar_._LIB_.1.1.250804.92757\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.lang_._cognom_._LIB_, Version=2.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.lang_._cognom_._LIB_.2.0.240820.191858\lib\net48\nilnul.lang_._cognom_._LIB_.dll</HintPath>
-    </Reference>
-    <Reference Include="nilnul.lang_._cot_._LIB4FX_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.lang_._cot_._LIB4FX_.1.0.240820.181034\lib\net48\nilnul.lang_._cot_._LIB4FX_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.lang_._cognom_._LIB_.2.0.250301.125903\lib\net48\nilnul.lang_._cognom_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.lang_._cot_._LIB_, Version=2.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.lang_._cot_._LIB_.2.0.240820.192426\lib\net48\nilnul.lang_._cot_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.math._calculus_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.math._calculus_._LIB_.1.1.240824.151617\lib\net48\nilnul.math._calculus_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.math._calculus_._LIB_.1.1.250413.152254\lib\net48\nilnul.math._calculus_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.complex._func_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num.complex._func_._LIB_.1.0.241114.151037\lib\net48\nilnul.num.complex._func_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num.complex._func_._LIB_.1.0.250323.82556\lib\net48\nilnul.num.complex._func_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.num.real._func_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul.num.real._func_._LIB_.1.1.250413.134211\lib\net48\nilnul.num.real._func_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.real._matrix_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num.real._matrix_._LIB_.1.1.241119.144308\lib\net48\nilnul.num.real._matrix_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num.real._matrix_._LIB_.1.1.250804.170352\lib\net48\nilnul.num.real._matrix_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.real._stream_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num.real._stream_._LIB_.1.0.241114.144946\lib\net48\nilnul.num.real._stream_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num.real._stream_._LIB_.1.0.250211.94435\lib\net48\nilnul.num.real._stream_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._complex_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._complex_._LIB_.1.1.241114.150250\lib\net48\nilnul.num._complex_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._complex_._LIB_.1.1.250804.104051\lib\net48\nilnul.num._complex_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._integer_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._integer_._LIB_.1.1.241104.100014\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._integer_._LIB_.1.1.250329.142625\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._quotient_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.241202.173110\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.250804.165609\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.241205.104252\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.250804.103333\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.rel._graph_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.rel._graph_._LIB_.1.1.240823.134742\lib\net48\nilnul.rel._graph_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul.rel._graph_._LIB_.1.1.250212.175003\lib\net48\nilnul.rel._graph_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.241110.144106\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.250417.141758\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.241125.83507\lib\net48\nilnul._character_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.250403.154606\lib\net48\nilnul._character_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._collective_._LIB__, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul._collective_._LIB__.1.0.241202.181605\lib\net48\nilnul._collective_._LIB__.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._fs_._LIB_.2.1.241122.113056\lib\net48\nilnul._fs_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._fs_._LIB_.2.1.250728.53712\lib\net48\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._geometry_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._geometry_._LIB_.1.0.241114.121900\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._geometry_._LIB_.1.0.250321.131336\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._lang_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._lang_._LIB_.1.1.241201.101525\lib\net48\nilnul._lang_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._lang_._LIB_.1.1.250405.132122\lib\net48\nilnul._lang_._LIB_.dll</HintPath>
     </Reference>
     <!--<Reference Include="nilnul._geometry_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <HintPath>packages\nilnul._geometry_._LIB_.1.0.240820.201007\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
@@ -181,115 +199,98 @@
       <HintPath>packages\nilnul._linq_._LIB_.1.1.240824.153439\lib\net48\nilnul._linq_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.241108.145825\lib\net48\nilnul._num_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.250804.164855\lib\net48\nilnul._num_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._num_._LINQ_.1.1.241104.93627\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._num_._LINQ_.1.1.250804.164856\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.241125.83253\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.250804.190838\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._relation_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\nilnul._relation_._LIB_.1.0.250323.170516\lib\net48\nilnul._relation_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.241130.102439\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.250424.44336\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._set_._LIB_.1.1.240831.105511\lib\net48\nilnul._set_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._set_._LIB_.1.1.250118.94723\lib\net48\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._stat_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._stat_._LIB_.1.1.241123.150243\lib\net48\nilnul._stat_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._stat_._LIB_.1.1.250711.43105\lib\net48\nilnul._stat_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._time_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._time_._LIB_.1.1.241202.192255\lib\net48\nilnul._time_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._time_._LIB_.1.1.250713.164734\lib\net48\nilnul._time_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.241203.71000\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.250728.52243\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._win_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._win_._LIB_.1.1.241018.181651\lib\net48\nilnul._win_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._win_._LIB_.1.1.250726.143211\lib\net48\nilnul._win_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._xml_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._xml_._LIB_.1.1.241113.104722\lib\net48\nilnul._xml_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._xml_._LIB_.1.1.250227.70442\lib\net48\nilnul._xml_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="sergeyBochkanov._alglib_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\sergeyBochkanov._alglib_._LIB_.1.1.240820.162825\lib\net48\sergeyBochkanov._alglib_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\sergeyBochkanov._alglib_._LIB_.1.1.250326.50838\lib\net48\sergeyBochkanov._alglib_._LIB_.dll</HintPath>
     </Reference>
     <!--<Reference Include="nilnul._geometry_._LIB_, Version=1.0.7749.32112, Culture=neutral, processorArchitecture=MSIL" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <HintPath>packages\nilnul._geometry_._LIB_.1.0.7749.32112\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
 </Reference>-->
     <Reference Include="System" />
-    <Reference Include="System.Buffers, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Buffers.4.6.0\lib\net462\System.Buffers.dll</HintPath>
+    <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
     </Reference>
-    <Reference Include="System.Collections.Immutable, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Collections.Immutable.9.0.0\lib\net462\System.Collections.Immutable.dll</HintPath>
+    <Reference Include="System.Collections.Immutable, Version=9.0.0.8, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.Collections.Immutable.9.0.8\lib\net462\System.Collections.Immutable.dll</HintPath>
     </Reference>
-    <Reference Include="System.Console, Version=4.0.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Console.4.3.1\lib\net46\System.Console.dll</HintPath>
+    <Reference Include="System.Collections.NonGeneric, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.Collections.NonGeneric.4.3.0\lib\net46\System.Collections.NonGeneric.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
-      <Private>True</Private>
-      <Private>True</Private>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.IO.Pipelines, Version=9.0.0.8, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.IO.Pipelines.9.0.8\lib\net462\System.IO.Pipelines.dll</HintPath>
     </Reference>
     <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Memory, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Memory.4.6.0\lib\net462\System.Memory.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
-      <Private>True</Private>
-      <Private>True</Private>
+    <Reference Include="System.Memory, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.Memory.4.6.3\lib\net462\System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics" />
-    <Reference Include="System.Numerics.Vectors, Version=4.1.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Numerics.Vectors.4.6.0\lib\net462\System.Numerics.Vectors.dll</HintPath>
+    <Reference Include="System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.Numerics.Vectors.4.6.1\lib\net462\System.Numerics.Vectors.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
+      <HintPath>..\..\.deps\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Runtime.CompilerServices.Unsafe.6.1.0\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Extensions, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>packages\System.Runtime.Extensions.4.3.1\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <HintPath>..\..\.deps\System.Runtime.Extensions.4.3.1\lib\net462\System.Runtime.Extensions.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
-      <Private>True</Private>
-      <Private>True</Private>
+    <Reference Include="System.Text.Encodings.Web, Version=9.0.0.8, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.Text.Encodings.Web.9.0.8\lib\net462\System.Text.Encodings.Web.dll</HintPath>
     </Reference>
-    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
-      <Private>True</Private>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
-      <Private>True</Private>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\System.Security.Cryptography.X509Certificates.4.3.2\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
-      <Private>True</Private>
-      <Private>True</Private>
+    <Reference Include="System.Text.Json, Version=9.0.0.8, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.Text.Json.9.0.8\lib\net462\System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Text.RegularExpressions.4.3.1\lib\net463\System.Text.RegularExpressions.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\.deps\System.Threading.Tasks.Extensions.4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -319,6 +320,10 @@
     <Compile Include="be_\IIgnorable.cs" />
     <Compile Include="be_\urgent_\Important.cs" />
     <Compile Include="be_\urgent_\_important\Li_.cs" />
+    <Compile Include="INote.cs" />
+    <Compile Include="nilnul0\_task_\INote.cs" />
+    <Compile Include="set_\sed\IMain.cs" />
+    <Compile Include="slate\chron_\ILog.cs" />
     <Compile Include="co_\IPrior.cs" />
     <Compile Include="co_\prior\of_\INormalize.cs" />
     <Compile Include="co_\prior_\IBuffer.cs" />
@@ -329,9 +334,11 @@
     <Compile Include="co_\_precedes\Li.cs" />
     <Compile Include="durant_\IDefinite.cs" />
     <Compile Include="duration\IDistribution.cs" />
+    <Compile Include="IChronicle.cs" />
     <Compile Include="IDuration.cs" />
     <Compile Include="IOccasion.cs" />
     <Compile Include="IPrj.cs" />
+    <Compile Include="IProperty.cs" />
     <Compile Include="IRemind.cs" />
     <Compile Include="ISeq.cs" />
     <Compile Include="ISlates.cs" />
@@ -350,9 +357,12 @@
     <Compile Include="nilnul0\job_\mark_\ISeal.cs" />
     <Compile Include="nilnul0\tasks\Major9minor.cs" />
     <Compile Include="nilnul0\task_\IMask.cs" />
+    <Compile Include="nilnul0\task_\IReadOnly.cs" />
     <Compile Include="nilnul0\task_\mask\IActual.cs" />
     <Compile Include="nilnul0\time\bound_\ISprint.cs" />
     <Compile Include="prj_\def\ICriticalPathMethod.cs" />
+    <Compile Include="prj_\def_\IUniMax.cs" />
+    <Compile Include="prj_\def_\unimax\ICriticalPathMethod.cs" />
     <Compile Include="prj_\fusi\cpm\IProgramEvaluation9reviewTechnique.cs" />
     <Compile Include="prj_\fusi\ICriticalPathMethod.cs" />
     <Compile Include="prj_\fusi\of_\ICoerce.cs" />
@@ -361,7 +371,7 @@
     <Compile Include="prj_\IPensive.cs" />
     <Compile Include="rel_\dac_\IFusiform.cs" />
     <Compile Include="rel_\dac_\IUnimax.cs" />
-    <Compile Include="rel_\IConsequent.cs" />
+    <Compile Include="rel_\ISubsequent.cs" />
     <Compile Include="rel_\IGang.cs" />
     <Compile Include="rel_\IPrecedent.cs" />
     <Compile Include="rel_\prec\nodes_\IPrj.cs" />
@@ -383,13 +393,18 @@
     <Compile Include="rel_\prec\node\ISubsequent.cs" />
     <Compile Include="rel_\prec\node\IUi.cs" />
     <Compile Include="rel_\prec\op_\IConverse.cs" />
+    <Compile Include="rel_\_PrededentX.cs" />
+    <Compile Include="rel_\_subsequent\_match\ICo.cs" />
     <Compile Include="re_\IPrecedent.cs" />
     <Compile Include="re_\IDependent.cs" />
     <Compile Include="re_\Include.cs" />
     <Compile Include="re_\ISibling.cs" />
+    <Compile Include="slate\chron_\IDone.cs" />
+    <Compile Include="slate\IChronicle.cs" />
+    <Compile Include="slate\vs_\IConglomerate.cs" />
     <Compile Include="slates\IKanban.cs" />
-    <Compile Include="slates_\similar\IChronicle - Copy.cs" />
-    <Compile Include="slate\attr_\Renew.cs" />
+    <Compile Include="slates\IChronicle - Copy.cs" />
+    <Compile Include="slate\attr_\IRenew.cs" />
     <Compile Include="slate\co_\aft_\xpn_\Late.cs" />
     <Compile Include="slate\IAlarm.cs" />
     <Compile Include="slate\ISlots.cs" />
@@ -398,17 +413,19 @@
     <Compile Include="slate_\ISlots.cs" />
     <Compile Include="slate_\ISlot.cs" />
     <Compile Include="slate_\mark_\ISeal.cs" />
-    <Compile Include="slate_\slot\IRecur.cs" />
-    <Compile Include="slate_\slot\seq_\IRecur.cs" />
-    <Compile Include="slate_\slot_\eg_\IMeeting.cs" />
-    <Compile Include="slate_\slot_\eg_\IReminder.cs" />
-    <Compile Include="slate_\slot_\INote.cs" />
-    <Compile Include="slate_\slot_\Now2inf.cs" />
-    <Compile Include="slate_\slot_\now_\_AdlibX.cs" />
-    <Compile Include="slate_\slot_\thence_\Defer.cs" />
-    <Compile Include="slate_\slot_\_based\duration_\IBound.cs" />
-    <Compile Include="slate_\slot_\_based\duration_\IDefinite.cs" />
-    <Compile Include="slate_\slot_\_based\duration_\IRandom.cs" />
+    <Compile Include="slot\create_\IAdlib.cs" />
+    <Compile Include="slot\create_\INote.cs" />
+    <Compile Include="slot\IRecur.cs" />
+    <Compile Include="slot\seq_\IRecur.cs" />
+    <Compile Include="slot_\eg_\IMeeting.cs" />
+    <Compile Include="slot_\eg_\IReminder.cs" />
+    <Compile Include="slot_\INote.cs" />
+    <Compile Include="slot_\Now2inf.cs" />
+    <Compile Include="slot_\now_\_AdlibX.cs" />
+    <Compile Include="slot_\thence_\Defer.cs" />
+    <Compile Include="slot_\_based\duration_\IBound.cs" />
+    <Compile Include="slot_\_based\duration_\IDefinite.cs" />
+    <Compile Include="slot_\_based\duration_\IRandom.cs" />
     <Compile Include="IFinance.cs" />
     <Compile Include="IInfo.cs" />
     <Compile Include="IResource.cs" />
@@ -440,7 +457,7 @@
     <Compile Include="_remind\_alarm\Li_.cs" />
     <Compile Include="_resources\Li_.cs" />
     <Compile Include="_slate\IMaxEnd.cs" />
-    <Compile Include="_slate\ISlot.cs" />
+    <Compile Include="ISlot.cs" />
     <Compile Include="nilnul0\ITask.cs" />
     <Compile Include="nilnul0\task_\IDecomposable.cs" />
     <Compile Include="nilnul0\task_\IDoodle.cs" />
@@ -456,12 +473,12 @@
     <Compile Include="_run\IRsc.cs" />
     <Compile Include="_slate\MinStart.cs" />
     <Compile Include="_durant_\NewFolder1\Duration - Copy.cs" />
-    <Compile Include="_slate\_slot\IStart.cs" />
-    <Compile Include="_slate\_slot\IDeadline.cs" />
-    <Compile Include="_slate\_slot\IBegin.cs" />
-    <Compile Include="_slate\_slot\IEnd.cs" />
-    <Compile Include="slate_\slot\actual\IDefer.cs" />
-    <Compile Include="slate_\slot\IDoodle.cs" />
+    <Compile Include="_slot\IStart.cs" />
+    <Compile Include="_slot\IDeadline.cs" />
+    <Compile Include="_slot\IBegin.cs" />
+    <Compile Include="_slot\IEnd.cs" />
+    <Compile Include="slot\actual\IDefer.cs" />
+    <Compile Include="slot\IDoodle.cs" />
     <Compile Include="appoint\Svr.cs" />
     <Compile Include="appoint\svr_\outlook\Api.cs" />
     <Compile Include="appoint\svr_\outlook\Calendar.cs" />
@@ -481,7 +498,7 @@
     <Compile Include="_prj_\Priors.cs" />
     <Compile Include="_prj_\Prior.cs" />
     <Compile Include="Durant.cs" />
-    <Compile Include="slate_\slot_\_based\duration_\Pert.cs" />
+    <Compile Include="slot_\_based\duration_\Pert.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="prj\survey_\simulate_\eg_\Demo.cs" />
     <Compile Include="prj\survey_\simulate_\eg_\DemoX.cs" />
@@ -494,19 +511,17 @@
     <Folder Include="co_\prior_\end9end\" />
     <Folder Include="nilnul0\task_\decomosable\" />
     <Folder Include="nilnul0\todo\" />
+    <Folder Include="prj_\def_\fusiform\" />
     <Folder Include="prj_\_pensive_\" />
+    <Folder Include="prop_\" />
     <Folder Include="rel\" />
     <Folder Include="rel_\prec\node\attr_\" />
-    <Folder Include="slates\chron_\" />
+    <Folder Include="slates_\similar\" />
     <Folder Include="slate\co_\aft\" />
-    <Folder Include="slate\rel_\prec\node\" />
-    <Folder Include="slate_\recur\" />
-    <Folder Include="slate_\slot\%28timepoint\" />
-    <Folder Include="slate_\_slot\" />
-    <Folder Include="slot\co_\aft\" />
-    <Folder Include="slot\co_\aft_\xpn_\" />
+    <Folder Include="slate\re_\" />
+    <Folder Include="slate_\slot_\_based\" />
+    <Folder Include="slot\%28timepoint\" />
     <Folder Include="svr_\api_\" />
-    <Folder Include="_slate\slot_\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -552,8 +567,12 @@
 if $(ConfigurationName) == Release (
 	"NuGet.exe" pack "$(ProjectPath)" -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
 	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source local
-	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source my
+
 	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source nuget
+
+	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source my
+
+
 ) ELSE (
 	if  $(ConfigurationName)==Symbol (
 		"NuGet.exe" pack "$(ProjectPath)" -Symbols -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
@@ -587,8 +606,9 @@ if $(ConfigurationName) == Release (
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\.deps\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\.deps\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
-    <Error Condition="!Exists('..\..\.deps\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\.deps\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets'))" />
+    <Error Condition="!Exists('..\..\.deps\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\.deps\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets'))" />
+    <!--<Error Condition="!Exists('..\..\.deps\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\.deps\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+    <Error Condition="!Exists('..\..\.deps\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\.deps\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets'))" />-->
     <!--<Error Condition="!Exists('packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets'))" />-->
     <!--<Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
     <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />-->
@@ -601,5 +621,6 @@ if $(ConfigurationName) == Release (
   <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
   <Import Project="packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
   <Import Project="..\..\.deps\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\.deps\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
-  <Import Project="..\..\.deps\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\..\.deps\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
+  <Import Project="..\..\.deps\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets" Condition="Exists('..\..\.deps\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets')" />
+  <!--<Import Project="..\..\.deps\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\..\.deps\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />-->
 </Project>

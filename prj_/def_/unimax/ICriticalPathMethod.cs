@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.task.prj_.def
+namespace nilnul.task.prj_.def_.unimax
 {
 	/// <summary>
-	/// if the task of the prj is associated with a duration, which is a definite distribution.
 	/// </summary>
 	/// <see cref="prj.sample.Cpm_quotient"/>
+	/// <see cref="def.ICriticalPathMethod"/>
 	/// alias:
 	///		cpm
 	///	

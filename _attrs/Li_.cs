@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace nilnul.task._attrs
 {
+	/// <summary>
+	/// traits; aspects;meta;info;data
+	/// </summary>
 	internal enum Li_
 	{
 		/// <summary>

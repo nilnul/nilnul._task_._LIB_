@@ -6,6 +6,10 @@ namespace nilnul.task
 	/// </summary>
 	/// alias:
 	///		context
+	///		environ
+	///		scope
+	///	vs:
+	///		<see cref="nilnul.ITask"/>, event, deed, cause/course/effect, matter, thing;
 	interface IOccasion { }
 
 }
