@@ -11,7 +11,7 @@ namespace nilnul.task_.composite.of_
 	/// eg:
 	///		 we need to go to the bank to do two procedures;
 	/// </summary>
-	internal class ConFlow
+	internal class IConFlow
 	{
 	}
 }

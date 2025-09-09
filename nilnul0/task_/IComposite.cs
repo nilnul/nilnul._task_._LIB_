@@ -9,7 +9,7 @@ namespace nilnul.task_
 	/// <summary>
 	/// eg:
 	///		a task can be decomposed as a reminder and the reminded; the reminder would be regarded as a task, and it might be scheduled earlier;
-	///	The two subtasks are now taken as whole as <see cref="task_.Composite"/>
+	///	The two subtasks are now taken as whole as <see cref="task_.IComposite"/>
 	///
 	/// </summary>
 	///  and <see cref="nilnul.task.re_.Include"/>
@@ -20,7 +20,7 @@ namespace nilnul.task_
 	///
 	/// <see cref="nilnul.task.re_.ISibling"/>
 	/// <see cref="nilnul.task.re_.IAffiliate"/>
-	internal class Composite
+	internal class IComposite
 	{
 	}
 }

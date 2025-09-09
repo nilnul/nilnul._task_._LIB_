@@ -9,7 +9,7 @@ namespace nilnul.task.rel_.prec.nodes_.prj.of_
 	/// <summary>
 	/// we can ad an empty task as a start or end, thus making the proj a rel that is dwelt, and connected;
 	/// </summary>
-	internal class Construct
+	internal class IConstruct
 	{
 	}
 }

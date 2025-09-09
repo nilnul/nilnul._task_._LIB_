@@ -20,6 +20,8 @@ namespace nilnul.task.slot
 	///		recurrence
 	///		evt
 	///		trig
+	///		<see cref="task.slate_.ISlots"/>
+	///		<see cref="obj.op.IRecur"/> <see cref="obj.seq_.IRecur"/>
 	internal class IRecur
 	{
 	}

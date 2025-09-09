@@ -13,6 +13,7 @@ namespace nilnul.task.slate_.slot_
 	/// alias:
 	///		note
 	///			,like "no"w
+	///		up2now
 	internal class INote
 		:task.slate_.ISlot
 	{

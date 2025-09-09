@@ -8,6 +8,6 @@
 	/// </remarks>
 	/// alias:
 	///		complex,
-	///		, vs:<see cref="Composite"/>
+	///		, vs:<see cref="IComposite"/>
 	public interface IRequest4decompose:ITask { }
 }

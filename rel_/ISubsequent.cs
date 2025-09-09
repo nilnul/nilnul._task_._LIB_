@@ -1,9 +1,17 @@
+using System;
+
 namespace nilnul.task.rel_
 {
 	static public class _SubsequentX
 	{
+		/// <summary>
+		/// this is a relaltion derived from <see cref="rel_.IPrecedent"/>
+		/// </summary>
+		[Obsolete(nameof(_rel._name.Settings1.Default.precedent), true)]
 
 		public const string NAME = "subsequent";
+
+
 
 	}
 	/// <summary>

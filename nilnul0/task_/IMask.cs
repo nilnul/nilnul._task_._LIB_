@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace nilnul.task_
 {
-	static public class _MaskX
-	{
-		public const string Name = "mask";
-	}
 	/// <summary>
 	/// time slot scheduled for an action
 	/// from the earlier start to latest finish.
