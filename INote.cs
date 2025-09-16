@@ -6,4 +6,5 @@ namespace nilnul.task
 	public interface INote
 		:nilnul._task_.INote
 	{ }
+
 }

@@ -252,6 +252,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="attr_\IColor.cs" />
+    <Compile Include="attr_\IDuration.cs" />
+    <Compile Include="attr_\ISchedule.cs" />
     <Compile Include="be_\begun_\IStopped.cs" />
     <Compile Include="be_\begun_\stopped_\IFaulted.cs" />
     <Compile Include="be_\IBegun.cs" />
@@ -262,6 +264,7 @@
     <Compile Include="be_\IIgnorable.cs" />
     <Compile Include="be_\urgent_\Important.cs" />
     <Compile Include="be_\urgent_\_important\Li_.cs" />
+    <Compile Include="IName.cs" />
     <Compile Include="INote.cs" />
     <Compile Include="nilnul0\task_\_MaskX.cs" />
     <Compile Include="nilnul0\_task_\INote.cs" />
@@ -357,12 +360,14 @@
     <Compile Include="slate_\ISlots.cs" />
     <Compile Include="slate_\ISlot.cs" />
     <Compile Include="slate_\mark_\ISeal.cs" />
+    <Compile Include="slot\be_\IStipulated.cs" />
     <Compile Include="slot\create_\IAdlib.cs" />
     <Compile Include="slot\create_\INote.cs" />
     <Compile Include="slot\IRecur.cs" />
     <Compile Include="slot\seq_\IRecur.cs" />
     <Compile Include="slot_\eg_\IMeeting.cs" />
     <Compile Include="slot_\eg_\IReminder.cs" />
+    <Compile Include="slot_\IMask.cs" />
     <Compile Include="slot_\INote.cs" />
     <Compile Include="slot_\Now2inf.cs" />
     <Compile Include="slot_\now_\_AdlibX.cs" />
