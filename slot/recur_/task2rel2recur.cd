@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Like Google Task, etc">
+    <Position X="9.183" Y="2.698" Height="0.75" Width="2.335" />
+  </Comment>
+  <Comment CommentText="Definition&#xD;&#xA;core&#xD;&#xA;customizable">
+    <Position X="6.656" Y="2.401" Height="1.26" Width="2.335" />
+  </Comment>
+  <Comment CommentText="time&#xD;&#xA;:ical">
+    <Position X="7.561" Y="12.793" Height="0.75" Width="2.335" />
+  </Comment>
+  <Comment CommentText="google, api&#xD;&#xA;live&#xD;&#xA;zoho&#xD;&#xA;qq&#xD;&#xA;your phone:sync?&#xD;&#xA;you windows?&#xD;&#xA;">
+    <Position X="7.467" Y="15.361" Height="1.136" Width="2.603" />
+  </Comment>
+  <Class Name="nilnul.task.slot.IRecur" Collapsed="true">
+    <Position X="5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>slot\IRecur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nilnul.task.IChronicle" Collapsed="true">
+    <Position X="5.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IChronicle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="nilnul.ITask" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nilnul0\ITask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.task.ISlot" Collapsed="true">
+    <Position X="4" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISlot.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.task.ISlate" Collapsed="true">
+    <Position X="3.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISlate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.task.IRel" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.task.attr_.IEndo" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>attr_\IEndo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.task.IAttribute" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul._task_.IGoal" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nilnul0\_task_\IGoal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul._task_.INote" Collapsed="true">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>nilnul0\_task_\INote.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.task.attr_.endo_.IAnatomic" Collapsed="true">
+    <Position X="6.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>attr_\endo_\IAnatomic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.task.attr_.endo_.anatom_.IInstitution" Collapsed="true">
+    <Position X="8.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>attr_\endo_\anatom_\IInstitution.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.task.attr_.endo_.anatom_.IConstituent" Collapsed="true">
+    <Position X="8.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>attr_\endo_\anatom_\IConstituent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.task.attr_.endo_.anatom_.institution.IComponent" Collapsed="true">
+    <Position X="10" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>attr_\endo_\anatom_\institution\IComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.task.attr_.endo_.anatom_.constituent.IFederation" Collapsed="true">
+    <Position X="10" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>attr_\endo_\anatom_\constituent\IFederation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.task.IPrj" Collapsed="true">
+    <Position X="4.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPrj.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -20,4 +20,5 @@ namespace nilnul.task.slot.be_
 	internal class IStipulated
 	{
 	}
+
 }

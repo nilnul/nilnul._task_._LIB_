@@ -9,4 +9,5 @@ namespace nilnul.task.rel_.dac_
 	internal class IUnimax
 	{
 	}
+
 }

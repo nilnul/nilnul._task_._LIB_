@@ -14,6 +14,9 @@ namespace nilnul.task
 	/// for <see cref="nilnul.task_.IProject"/>, <see cref="nilnul.task.co_.Prior"/> exists among subtasks;
 	/// <see cref="task.svr_.Google"/> doesnot support the <see cref="nilnul.task.co_.Prior"/> or un<see cref="nilnul.task.slate_"/>.
 	/// </remarks>
+	/// alias:
+	///		web
+	///		hub
 	internal class ISvr
 	{
 	}

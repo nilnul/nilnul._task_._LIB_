@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace nilnul.task
 {
+	/// speaking is inferior to scheduling;
+	/// scheduling is inferior to beginning; 
+	/// beginning is inferior to achieving.
+	/// 
 	/// <summary>
 	/// associate task with <see cref="nilnul.time.ext.bounds"/> or <see cref="nilnul.time0nul.bounds"/>;
 	/// the bounds can be 

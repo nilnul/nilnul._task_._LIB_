@@ -5,6 +5,7 @@ namespace nilnul.task
 	/// it's upon <see cref="nilnul.ITask"/>, not necessarily slated.
 	/// </summary>
 	/// <remarks>
+	/// we can treat a task and subsequent tasks (<see cref="task.attr_.IPrevious"/>) as a prj, naively.
 	/// On the rel, the properties (such as labor, materials, data)  of each task, or some tasks can be calculated;
 	/// in history, this is recorded as:
 	///		:deed
@@ -20,6 +21,7 @@ namespace nilnul.task
 	///		proj
 	///			,might confuse with <see cref="nilnul.geometry.planar.map_.IProjection"/>
 	///		plan:
+	///		wizard, a sequence of tasks
 	///		
 	/// vs:
 	///		projection|projective, which is <see cref="nilnul._rel.map_."/>
@@ -34,6 +36,11 @@ namespace nilnul.task
 	///								 ///			
 	///	vs:
 	///		<see cref="nilnul.task"/>, a prj can be tagged and regarded as a task, and a task can be decomposed, and reconstructed as a prj
+	///	;vs:
+	///		workflow
+	///		flowchart
+	///		flow
+	///		
 	///		
 	///		
 	public interface IPrj

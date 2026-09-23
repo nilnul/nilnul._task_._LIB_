@@ -21,5 +21,22 @@ namespace nilnul.task._rel._name
 				Settings1.Default.mask = value;
 			}
 		}
+
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <remarks>
+		/// alternatively:
+		///		previous
+		///		,old for read: precedent
+		/// </remarks>
+ 		static public string Prev { get {
+				return Settings1.Default.precedent;
+			}
+			set { 
+				Settings1.Default.precedent = value;
+			}
+		}
+
 	}
 }

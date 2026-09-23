@@ -38,6 +38,8 @@ namespace nilnul.task.slates
 	///		yearbook
 	///		timeline
 	///	<see cref="nilnul.task.svr_.google.usr.Chronology"/>	
+	///	vs:
+	///		<see cref="task.IPrj"/> which is a <see cref="nilnul.rel_.dac_.IUniminimal"/> of tasks, and it must be in a chron; but a chron might contain several prjs.
 	public interface IChronicle
 	{
 	}

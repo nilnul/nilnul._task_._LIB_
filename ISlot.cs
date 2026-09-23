@@ -13,7 +13,10 @@
 	///		slate
 	///		
 	///		
-	public interface ISlot { }
+	public interface ISlot:task.slate_.IUnrecur
+	,
+		nilnul.time.bound_.IClopen /// implies that the duration is nonnil.
+	{ }
 
 
 }

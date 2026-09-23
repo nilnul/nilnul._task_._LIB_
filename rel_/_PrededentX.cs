@@ -2,8 +2,18 @@
 
 namespace nilnul.task.rel_
 {
+	/// <summary>
+	/// <see cref="task.attr_."/>
+	/// </summary>
 	public class _PrededentX
 	{
+		/// <summary>
+		/// 
+		/// </summary>
+		/// alternatives:
+		///		previous
+		///		prev
+		///		precedent
 
 		[Obsolete(nameof(Key),true)]
 		public const string KEY = "precedent";

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\wyt._task_\_TEST_(Git\packages\EntityFramework.6.5.2\build\EntityFramework.props" Condition="Exists('..\..\wyt._task_\_TEST_(Git\packages\EntityFramework.6.5.2\build\EntityFramework.props')" />
   <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
   <!--<Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />-->
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -108,6 +109,18 @@
     <PackageLicenseFile>License.txt</PackageLicenseFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\EntityFramework.6.5.2\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\EntityFramework.6.5.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\MathNet.Numerics.5.0.0\lib\net48\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=10.0.0.12, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\Microsoft.Bcl.AsyncInterfaces.10.0.12\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Msagl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=6baa2c1345e83b6e, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Msagl.1.1.6\lib\netstandard2.0\Microsoft.Msagl.dll</HintPath>
     </Reference>
@@ -117,8 +130,14 @@
     <Reference Include="Microsoft.Msagl.GraphViewerGdi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=6baa2c1345e83b6e, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Msagl.GraphViewerGDI.1.1.7\lib\net472\Microsoft.Msagl.GraphViewerGdi.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul.collection_._discrete_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul.collection_._discrete_._LIB_.1.1.241123.135147\lib\net48\nilnul.collection_._discrete_._LIB_.dll</HintPath>
+    </Reference>
     <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.geometry._planar_._LIB_.1.1.250804.92757\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul.geometry._planar_._LIB_.1.1.251019.71911\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.lang_._cognom_._LIB_, Version=2.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.lang_._cognom_._LIB_.2.0.250301.125903\lib\net48\nilnul.lang_._cognom_._LIB_.dll</HintPath>
@@ -133,82 +152,88 @@
       <HintPath>packages\nilnul.num.complex._func_._LIB_.1.0.250805.132302\lib\net48\nilnul.num.complex._func_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.real._func_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num.real._func_._LIB_.1.1.250413.134211\lib\net48\nilnul.num.real._func_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul.num.real._func_._LIB_.1.1.260916.145431\lib\net48\nilnul.num.real._func_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.real._matrix_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num.real._matrix_._LIB_.1.1.250805.140141\lib\net48\nilnul.num.real._matrix_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul.num.real._matrix_._LIB_.1.1.260118.44254\lib\net48\nilnul.num.real._matrix_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num.real._stream_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.num.real._stream_._LIB_.1.0.250211.94435\lib\net48\nilnul.num.real._stream_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._complex_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._complex_._LIB_.1.1.250804.104051\lib\net48\nilnul.num._complex_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul.num._complex_._LIB_.1.1.251120.143111\lib\net48\nilnul.num._complex_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._integer_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._integer_._LIB_.1.1.250329.142625\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul.num._integer_._LIB_.1.1.260116.21753\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._quotient_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._quotient_._LIB_.1.1.250804.165609\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul.num._quotient_._LIB_.1.1.260721.74410\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._real_._LIB_.2.1.250804.103333\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul.num._real_._LIB_.2.1.260916.122330\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.rel._graph_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.rel._graph_._LIB_.1.1.250212.175003\lib\net48\nilnul.rel._graph_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._bit_._LIB_.1.1.250417.141758\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._bit_._LIB_.1.1.260806.54346\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._character_._LIB_.2.1.250403.154606\lib\net48\nilnul._character_._LIB_.dll</HintPath>
     </Reference>
+    <Reference Include="nilnul._collective_._LIB__, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._collective_._LIB__.1.0.250314.91731\lib\net48\nilnul._collective_._LIB__.dll</HintPath>
+    </Reference>
+    <Reference Include="nilnul._discrete_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._discrete_._LIB_.1.0.260811.41145\lib\net48\nilnul._discrete_._LIB_.dll</HintPath>
+    </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._fs_._LIB_.2.1.250824.125620\lib\net48\nilnul._fs_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._fs_._LIB_.2.1.260922.125930\lib\net48\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._geometry_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._geometry_._LIB_.1.0.250321.131336\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
-    </Reference>
-    <Reference Include="nilnul._lang_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._lang_._LIB_.1.1.250405.132122\lib\net48\nilnul._lang_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._geometry_._LIB_.1.0.250905.105258\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
     </Reference>
     <!--<Reference Include="nilnul._geometry_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <HintPath>packages\nilnul._geometry_._LIB_.1.0.240820.201007\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
 </Reference>-->
+    <Reference Include="nilnul._lang_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._lang_._LIB_.1.1.260604.82052\lib\net48\nilnul._lang_._LIB_.dll</HintPath>
+    </Reference>
     <Reference Include="nilnul._linq_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._linq_._LIB_.1.1.240824.153439\lib\net48\nilnul._linq_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._num_._LIB_.1.1.250804.164855\lib\net48\nilnul._num_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._num_._LIB_.1.1.260807.41743\lib\net48\nilnul._num_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._num_._LINQ_.1.1.250804.164856\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._num_._LINQ_.1.1.260807.41535\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._obj_._LIB_.1.2.250817.103741\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._obj_._LIB_.1.2.260922.123115\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._relation_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._relation_._LIB_.1.0.250323.170516\lib\net48\nilnul._relation_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._rel_._LIB_.1.2.250424.44336\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._rel_._LIB_.1.2.260909.60900\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._set_._LIB_.1.1.250118.94723\lib\net48\nilnul._set_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._set_._LIB_.1.1.260811.33155\lib\net48\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._stat_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._stat_._LIB_.1.1.250711.43105\lib\net48\nilnul._stat_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._time_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._time_._LIB_.1.1.250821.40134\lib\net48\nilnul._time_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._time_._LIB_.1.1.260907.23858\lib\net48\nilnul._time_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._txt_._LIB_.1.1.250728.52243\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._txt_._LIB_.1.1.260922.140957\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._win_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._win_._LIB_.1.1.250726.143211\lib\net48\nilnul._win_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._win_._LIB_.1.1.260807.50430\lib\net48\nilnul._win_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._xml_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul._xml_._LIB_.1.1.250227.70442\lib\net48\nilnul._xml_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._xml_._LIB_.1.1.260811.42725\lib\net48\nilnul._xml_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="sergeyBochkanov._alglib_._LIB_, Version=1.1.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\sergeyBochkanov._alglib_._LIB_.1.1.250326.50838\lib\net48\sergeyBochkanov._alglib_._LIB_.dll</HintPath>
@@ -217,6 +242,23 @@
   <HintPath>packages\nilnul._geometry_._LIB_.1.0.7749.32112\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
 </Reference>-->
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=10.0.0.12, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\System.Collections.Immutable.10.0.12\lib\net462\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\System.Collections.NonGeneric.4.3.0\lib\net46\System.Collections.NonGeneric.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Pipelines, Version=10.0.0.12, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\System.IO.Pipelines.10.0.12\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
     <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
       <Private>True</Private>
@@ -229,11 +271,35 @@
     <Reference Include="System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Numerics.Vectors.4.6.1\lib\net462\System.Numerics.Vectors.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\System.Runtime.Extensions.4.3.1\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=10.0.0.12, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\System.Text.Encodings.Web.10.0.12\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=10.0.0.12, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\System.Text.Json.10.0.12\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Text.RegularExpressions.4.3.1\lib\net463\System.Text.RegularExpressions.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\System.Threading.Tasks.Extensions.4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
@@ -244,31 +310,220 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="_nilnul_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\_nilnul_._LIB_.1.1.250821.144403\lib\net48\_nilnul_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\_nilnul_._LIB_.1.1.250926.84614\lib\net48\_nilnul_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="_nilnul_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\_nilnul_._LINQ_.1.1.250821.144403\lib\net48\_nilnul_._LINQ_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\_nilnul_._LINQ_.1.1.250926.84614\lib\net48\_nilnul_._LINQ_.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="attr\vs_\IRel.cs" />
+    <Compile Include="attr_\endo_\anatom_\IInstitution.cs" />
+    <Compile Include="attr_\endo_\anatom_\IConstituent.cs" />
+    <Compile Include="attr_\endo_\IAnatomic.cs" />
+    <Compile Include="attr_\endo_\ITiming.cs" />
+    <Compile Include="attr_\endo_\anatom_\IWhole.cs" />
+    <Compile Include="attr_\endo_\anatom_\IPart.cs" />
+    <Compile Include="attr_\endo_\anatom_\constituent\_converse\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="attr_\endo_\anatom_\constituent\_converse\SettingsX.cs" />
+    <Compile Include="attr_\endo_\anatom_\institution\IComponent.cs" />
+    <Compile Include="attr_\endo_\anatom_\constituent\IFederation.cs" />
+    <Compile Include="attr_\endo_\anatom_\institution\_converse\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="attr_\endo_\anatom_\institution\_converse\SettingsX.cs" />
+    <Compile Include="attr_\endo_\anatom_\_constituent\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="attr_\endo_\anatom_\_constituent\SettingsX.cs" />
+    <Compile Include="attr_\endo_\anatom_\_institution\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="attr_\endo_\anatom_\_institution\SettingsX.cs" />
+    <Compile Include="attr_\endo_\timing_\INext.cs" />
+    <Compile Include="attr_\endo_\timing_\next\IIsNextOf.cs" />
+    <Compile Include="attr_\endo_\timing_\IPrev.cs" />
+    <Compile Include="attr_\endo_\timing_\prev\IIsPrevOf.cs" />
+    <Compile Include="attr_\endo_\timing_\_next\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="attr_\endo_\timing_\_next\SettingsX.cs" />
+    <Compile Include="attr_\endo_\timing_\_prev\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="attr_\endo_\timing_\_prev\SettingsX.cs" />
     <Compile Include="attr_\IColor.cs" />
     <Compile Include="attr_\IDuration.cs" />
+    <Compile Include="attr_\IEndo.cs" />
+    <Compile Include="bi_\IAbsorb.cs" />
+    <Compile Include="IBi.cs" />
+    <Compile Include="co_\dup\alesce_\IMerge.cs" />
+    <Compile Include="IRel.cs" />
+    <Compile Include="nilnul0\time\duration\be_\tasK_\INegligible.cs" />
+    <Compile Include="nilnul0\time\duration_\tasK_\IOneLine.cs" />
+    <Compile Include="nilnul0\_time\clock\op_\shrink_\_SkitX.cs" />
+    <Compile Include="nilnul0\time\duration\be_\tasK_\_minimis\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="nilnul0\time\duration\be_\tasK_\_minimis\SettingsX.cs" />
+    <Compile Include="nilnul0\time\elapse_\tasK_\INegligible.cs" />
+    <Compile Include="nilnul0\time\elapse_\tasK_\_AberrateX.cs" />
+    <Compile Include="on_\triG_\os_\ILinux.cs" />
+    <Compile Include="on_\triG_\os_\IWindows.cs" />
+    <Compile Include="on_\triG_\IOperatingSystem.cs" />
+    <Compile Include="re_\IOrganization.cs" />
+    <Compile Include="re_\IRepetitive.cs" />
+    <Compile Include="re_\timing_\INext.cs" />
+    <Compile Include="re_\timing_\IPrev.cs" />
+    <Compile Include="re_\timing_\prev\IUpto.cs" />
+    <Compile Include="slate\attr_\INext.cs" />
+    <Compile Include="re_\timing_\next\ISubsequent.cs" />
+    <Compile Include="re_\timing_\prev\IAntecedent.cs" />
+    <Compile Include="attr_\uxp_\IKeywords.cs" />
+    <Compile Include="slate\attr_\IPrev.cs" />
+    <Compile Include="attr_\IRegen.cs" />
     <Compile Include="attr_\ISchedule.cs" />
+    <Compile Include="attr_\uxp_\ITiming.cs" />
     <Compile Include="be_\begun_\IStopped.cs" />
+    <Compile Include="be_\begun_\IUnEnded.cs" />
     <Compile Include="be_\begun_\stopped_\IFaulted.cs" />
+    <Compile Include="be_\ended_\uncomplish_\aborted_\IAbandoned.cs" />
+    <Compile Include="be_\ended_\uncomplish_\aborted_\IFaulted.cs" />
+    <Compile Include="be_\ended_\uncomplish_\IAborted.cs" />
+    <Compile Include="be_\ended_\IAccomplished.cs" />
+    <Compile Include="be_\ended_\uncomplish_\ICancelled.cs" />
+    <Compile Include="be_\ended_\IUnAccomplished.cs" />
+    <Compile Include="be_\ended_\xpn_\ISuspended.cs" />
     <Compile Include="be_\IBegun.cs" />
     <Compile Include="be_\begun_\stopped_\ISucced.cs" />
     <Compile Include="be_\ICritical.cs" />
+    <Compile Include="be_\IDone.cs" />
+    <Compile Include="be_\IEnded.cs" />
+    <Compile Include="be_\IIncomplete.cs" />
     <Compile Include="be_\IMilestone.cs" />
     <Compile Include="be_\INonbegun.cs" />
     <Compile Include="be_\IIgnorable.cs" />
+    <Compile Include="be_\IParable.cs" />
+    <Compile Include="be_\IProgressive.cs" />
+    <Compile Include="be_\IUnEnded.cs" />
+    <Compile Include="duration\be_\IParkinsonLaw.cs" />
+    <Compile Include="IAttribute.cs" />
+    <Compile Include="IBoss.cs" />
+    <Compile Include="IOn.cs" />
+    <Compile Include="slate\attr_\IAntecedence.cs" />
+    <Compile Include="IProgenitor.cs" />
+    <Compile Include="IRe.cs" />
+    <Compile Include="ITaxonomy.cs" />
+    <Compile Include="nilnul0\task_\diary_\IAudit.cs" />
+    <Compile Include="nilnul0\task_\end\IVerify.cs" />
+    <Compile Include="nilnul0\task_\grasp_\ICompose.cs" />
+    <Compile Include="nilnul0\task_\grasp_\IFederate.cs" />
+    <Compile Include="nilnul0\task_\IUntitled.cs" />
+    <Compile Include="nilnul0\task_\personal_\daily_\routine_\IEpilog.cs" />
+    <Compile Include="nilnul0\task_\personal_\daily_\routine_\IProlog.cs" />
+    <Compile Include="nilnul0\task_\untitled\act_\ITriage.cs" />
+    <Compile Include="nilnul0\task_\IDiary.cs" />
+    <Compile Include="nilnul0\task_\IEdu.cs" />
+    <Compile Include="nilnul0\task_\IGrasp.cs" />
+    <Compile Include="nilnul0\task_\IMoney.cs" />
+    <Compile Include="nilnul0\task_\intraday_\ICarryForward.cs" />
+    <Compile Include="nilnul0\task_\IPlace.cs" />
+    <Compile Include="nilnul0\task_\IArchive.cs" />
+    <Compile Include="nilnul0\task_\ITrigger.cs" />
+    <Compile Include="nilnul0\task_\mark_\_SealX.cs" />
+    <Compile Include="nilnul0\task_\place_\IFretch.cs" />
+    <Compile Include="nilnul0\task_\IProcure.cs" />
+    <Compile Include="nilnul0\task_\place_\IResettle.cs" />
+    <Compile Include="nilnul0\task_\procure_\IBuy.cs" />
+    <Compile Include="nilnul0\task_\procure_\IRent.cs" />
+    <Compile Include="nilnul0\task_\procure_\IReservoir.cs" />
+    <Compile Include="nilnul0\task_\frozen\act_\IJog.cs" />
+    <Compile Include="nilnul0\task_\_grasp\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="nilnul0\task_\_grasp\SettingsX.cs" />
+    <Compile Include="nilnul0\_task_\IGoal.cs" />
+    <Compile Include="nilnul0\_time\clock_\tasK_\_DailyX.cs" />
+    <Compile Include="on_\end_\IReproduce.cs" />
+    <Compile Include="on_\hook_\comm_\IChat.cs" />
+    <Compile Include="on_\hook_\comm_\IPoster.cs" />
+    <Compile Include="on_\hook_\comm_\IPub.cs" />
+    <Compile Include="on_\hook_\comm_\IEmail.cs" />
+    <Compile Include="on_\hook_\IFinance.cs" />
+    <Compile Include="on_\hook_\IPlace.cs" />
+    <Compile Include="on_\hook_\IPostal.cs" />
+    <Compile Include="on_\IHook.cs" />
+    <Compile Include="on_\IOnBegin.cs" />
+    <Compile Include="on_\IOnEnd.cs" />
+    <Compile Include="op_\_resolve\finish_\IFaulty.cs" />
+    <Compile Include="op_\_resolve\finish_\ISuccess.cs" />
+    <Compile Include="op_\_resolve\IAbort.cs" />
+    <Compile Include="op_\_resolve\ICancel.cs" />
+    <Compile Include="op_\_resolve\IFinish.cs" />
+    <Compile Include="op_\IResolve.cs" />
+    <Compile Include="prj\duration\dist\ISample.cs" />
+    <Compile Include="prj\duration\dist\ISurvey.cs" />
+    <Compile Include="prj\duration\IDistribution.cs" />
+    <Compile Include="prj\IDuration.cs" />
+    <Compile Include="prj\ISurvey.cs" />
+    <Compile Include="prj\of_\ICarryForward.cs" />
+    <Compile Include="prj_\_as_\IConfluent.cs" />
+    <Compile Include="prj_\_as_\IWorkflow.cs" />
+    <Compile Include="rel_\dac_\IUnimin.cs" />
+    <Compile Include="rel_\IPriority.cs" />
+    <Compile Include="re_\org_\IChildTask.cs" />
+    <Compile Include="re_\org_\IParentTask.cs" />
+    <Compile Include="re_\org_\ISuptask.cs" />
+    <Compile Include="re_\org\IInside.cs" />
+    <Compile Include="re_\IReification.cs" />
+    <Compile Include="re_\ITiming.cs" />
+    <Compile Include="re_\timing_\IAfter.cs" />
+    <Compile Include="slate\be_\IJot.cs" />
+    <Compile Include="slate\chron_\ICancelled.cs" />
+    <Compile Include="slate\chron_\_eg\Li_.cs" />
+    <Compile Include="slate\IOccur.cs" />
+    <Compile Include="slate\IRe.cs" />
+    <Compile Include="slate\occur\re_\IExecution.cs" />
+    <Compile Include="slate\re_\aft_\IImmediate.cs" />
+    <Compile Include="slate\re_\comprise_\IWithin.cs" />
+    <Compile Include="slate\re_\comprise_\IInclude.cs" />
+    <Compile Include="slate\re_\IAfter.cs" />
+    <Compile Include="slate\re_\IBefore.cs" />
+    <Compile Include="slate\occurs\be_\any_\ITooLong.cs" />
     <Compile Include="be_\urgent_\Important.cs" />
     <Compile Include="be_\urgent_\_important\Li_.cs" />
+    <Compile Include="duration\be_\IDefragmentation.cs" />
+    <Compile Include="duration\be_\IUnprocrastiible.cs" />
     <Compile Include="IName.cs" />
     <Compile Include="INote.cs" />
+    <Compile Include="ITag.cs" />
     <Compile Include="nilnul0\task_\_MaskX.cs" />
     <Compile Include="nilnul0\_task_\INote.cs" />
+    <Compile Include="prjs\IProgress.cs" />
+    <Compile Include="rel_\_IcalX.cs" />
+    <Compile Include="re_\org_\ISubtask.cs" />
+    <Compile Include="schedule_\IParallel.cs" />
+    <Compile Include="schedule_\ISequential.cs" />
     <Compile Include="set_\sed\IMain.cs" />
+    <Compile Include="slates\_chron\Li_.cs" />
     <Compile Include="slate\chron_\ILog.cs" />
     <Compile Include="co_\IPrior.cs" />
     <Compile Include="co_\prior\of_\INormalize.cs" />
@@ -299,8 +554,8 @@
     <Compile Include="nilnul0\deed_\IReconciled.cs" />
     <Compile Include="nilnul0\deed_\IRecorded.cs" />
     <Compile Include="nilnul0\IDeed.cs" />
-    <Compile Include="nilnul0\job_\IMark.cs" />
-    <Compile Include="nilnul0\job_\mark_\ISeal.cs" />
+    <Compile Include="nilnul0\task_\IMark.cs" />
+    <Compile Include="nilnul0\task_\mark_\ISeal.cs" />
     <Compile Include="nilnul0\tasks\IMajor9minor.cs" />
     <Compile Include="nilnul0\task_\IMask.cs" />
     <Compile Include="nilnul0\task_\IReadOnly.cs" />
@@ -341,35 +596,71 @@
     <Compile Include="rel_\prec\op_\IConverse.cs" />
     <Compile Include="rel_\_PrededentX.cs" />
     <Compile Include="rel_\_subsequent\_match\ICo.cs" />
-    <Compile Include="re_\IPrecedent.cs" />
+    <Compile Include="re_\timing_\IBefore.cs" />
     <Compile Include="re_\IDependent.cs" />
-    <Compile Include="re_\Include.cs" />
-    <Compile Include="re_\ISibling.cs" />
+    <Compile Include="re_\org\Include.cs" />
+    <Compile Include="re_\org_\ISibling.cs" />
     <Compile Include="slate\chron_\IDone.cs" />
     <Compile Include="slate\IChronicle.cs" />
+    <Compile Include="slate\IDuration.cs" />
     <Compile Include="slate\vs_\IConglomerate.cs" />
     <Compile Include="slates\IKanban.cs" />
-    <Compile Include="slates\IChronicle - Copy.cs" />
+    <Compile Include="slates\ICluster.cs" />
     <Compile Include="slate\attr_\IRenew.cs" />
     <Compile Include="slate\co_\aft_\xpn_\Late.cs" />
     <Compile Include="slate\IAlarm.cs" />
-    <Compile Include="slate\ISlots.cs" />
+    <Compile Include="slate\IOccurs.cs" />
+    <Compile Include="slate\vs_\_EncompassX.cs" />
+    <Compile Include="slate_\IContingent.cs" />
     <Compile Include="slate_\IMilestone.cs" />
+    <Compile Include="slate_\IRecur.cs" />
     <Compile Include="slate_\IRightAway.cs" />
     <Compile Include="slate_\ISeq.cs" />
-    <Compile Include="slate_\ISlots.cs" />
-    <Compile Include="slate_\ISlot.cs" />
+    <Compile Include="slate_\unrecur\IOccurs.cs" />
+    <Compile Include="slate_\_recur_\ISlots.cs" />
+    <Compile Include="slate_\_unrecur_\ISlot.cs" />
+    <Compile Include="slate_\IUnrecur.cs" />
     <Compile Include="slate_\mark_\ISeal.cs" />
+    <Compile Include="slate_\recur\IHiatus.cs" />
+    <Compile Include="slate_\recur\IOccurence.cs" />
+    <Compile Include="slate_\recur\tail\IRevise.cs" />
+    <Compile Include="slot\_recur_\ITorso.cs" />
+    <Compile Include="slot_\eg_\IPlace.cs" />
+    <Compile Include="slot_\eg_\IProcure.cs" />
+    <Compile Include="slot_\eg_\procure_\IBuy.cs" />
+    <Compile Include="slot_\eg_\procure_\IFetch.cs" />
+    <Compile Include="slot_\eg_\procure_\IRent.cs" />
+    <Compile Include="slot_\eg_\procure_\IReservoir.cs" />
+    <Compile Include="slot_\eg_\procure_\_fetch\INotification.cs" />
+    <Compile Include="vs_\js_\IMicroTask.cs" />
+    <Compile Include="_slot_\Slot.cs" />
+    <Compile Include="slate_\_as_\ILog.cs" />
+    <Compile Include="slate_\_recur\IPeriods.cs" />
     <Compile Include="slot\be_\IStipulated.cs" />
+    <Compile Include="slot\be_\IUnprecedent.cs" />
+    <Compile Include="slot\co_\IPrecedent.cs" />
+    <Compile Include="slot\co_\ISlack.cs" />
     <Compile Include="slot\create_\IAdlib.cs" />
     <Compile Include="slot\create_\INote.cs" />
+    <Compile Include="slot\duration\be_\ITooLong.cs" />
+    <Compile Include="slot\IActual.cs" />
+    <Compile Include="slot\ICo.cs" />
     <Compile Include="slot\IRecur.cs" />
+    <Compile Include="slot\IRefine.cs" />
+    <Compile Include="slot\recur_\IOnce.cs" />
+    <Compile Include="slot\re_\timing_\IBeginAftBegin.cs" />
+    <Compile Include="slot\re_\timing_\IBeginAftEnd.cs" />
+    <Compile Include="slot\re_\timing_\IEndAftBegin.cs" />
+    <Compile Include="slot\re_\timing_\IEndAftEnd.cs" />
     <Compile Include="slot\seq_\IRecur.cs" />
+    <Compile Include="slot\to_\ITorso.cs" />
     <Compile Include="slot_\eg_\IMeeting.cs" />
     <Compile Include="slot_\eg_\IReminder.cs" />
+    <Compile Include="slot_\ILater.cs" />
     <Compile Include="slot_\IMask.cs" />
-    <Compile Include="slot_\INote.cs" />
-    <Compile Include="slot_\Now2inf.cs" />
+    <Compile Include="slot_\IJot.cs" />
+    <Compile Include="slot_\INow2inf.cs" />
+    <Compile Include="slot_\ISubsequent.cs" />
     <Compile Include="slot_\now_\_AdlibX.cs" />
     <Compile Include="slot_\thence_\Defer.cs" />
     <Compile Include="slot_\_based\duration_\IBound.cs" />
@@ -400,6 +691,11 @@
     <Compile Include="_durant_\IDistribution.cs" />
     <Compile Include="_finance_\ICost.cs" />
     <Compile Include="_finance_\IValue.cs" />
+    <Compile Include="_on_\action_\IRegen.cs" />
+    <Compile Include="_on_\IAction.cs" />
+    <Compile Include="_on_\ICondition.cs" />
+    <Compile Include="_prj\IParade.cs" />
+    <Compile Include="_prj\_task\IBacklog.cs" />
     <Compile Include="_prj_\_prior\ITodo.cs" />
     <Compile Include="_rel\_name\Settings1.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -411,6 +707,8 @@
     <Compile Include="_remind\alarm\repeat\ITrigger.cs" />
     <Compile Include="_remind\_alarm\Li_.cs" />
     <Compile Include="_resources\Li_.cs" />
+    <Compile Include="_schedule\IThrottle.cs" />
+    <Compile Include="_slate\IPeriod.cs" />
     <Compile Include="_slate\IMaxEnd.cs" />
     <Compile Include="ISlot.cs" />
     <Compile Include="nilnul0\ITask.cs" />
@@ -426,8 +724,14 @@
     <Compile Include="slate_\Concurrent.cs" />
     <Compile Include="_attrs\Li_.cs" />
     <Compile Include="_run\IRsc.cs" />
+    <Compile Include="_slate\IPremise.cs" />
+    <Compile Include="_slate\IPriority.cs" />
+    <Compile Include="_slate\monitor_\IMonitor.cs" />
+    <Compile Include="_slate\monitor_\IPlan.cs" />
+    <Compile Include="_slate\monitor_\ITrac.cs" />
     <Compile Include="_slate\MinStart.cs" />
     <Compile Include="_durant_\NewFolder1\Duration - Copy.cs" />
+    <Compile Include="_slot\IScope.cs" />
     <Compile Include="_slot\IStart.cs" />
     <Compile Include="_slot\IDeadline.cs" />
     <Compile Include="_slot\IBegin.cs" />
@@ -465,27 +769,61 @@
   <ItemGroup>
     <Folder Include="co_\prior_\end9end\" />
     <Folder Include="nilnul0\todo\" />
+    <Folder Include="nilnul0\_time\clock\op_\shrink\" />
+    <Folder Include="nilnul0\_time\clock\op_\shrink_\skit\" />
+    <Folder Include="nilnul0\_time\clock_\tasK_\daily_\" />
     <Folder Include="prj_\def_\fusiform\" />
     <Folder Include="prj_\_pensive_\" />
-    <Folder Include="prop_\" />
     <Folder Include="rel\" />
     <Folder Include="slates_\similar\" />
     <Folder Include="slate\co_\aft\" />
-    <Folder Include="slate\re_\" />
-    <Folder Include="slate_\slot_\_based\" />
+    <Folder Include="slate\co_\_aft\" />
     <Folder Include="slot\%28timepoint\" />
     <Folder Include="svr_\api_\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="attr_\endo_\anatom_\constituent\_converse\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="attr_\endo_\anatom_\institution\_converse\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="attr_\endo_\anatom_\_constituent\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="attr_\endo_\anatom_\_institution\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="attr_\endo_\timing_\_next\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="attr_\endo_\timing_\_prev\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="nilnul0\time\duration\be_\tasK_\_minimis\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="nilnul0\task_\_grasp\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
+    <None Include="slot\recur_\task2rel2recur.cd" />
     <None Include="_rel\_name\Settings1.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="License.txt" Pack="true" PackagePath="" />
+    <Content Include="slot\recur_\Task2rel2recur.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -554,20 +892,6 @@ if $(ConfigurationName) == Release (
 	)
 )</PostBuildEvent>
   </PropertyGroup>
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <!--<Error Condition="!Exists('packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets'))" />-->
-    <!--<Error Condition="!Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
-    <Error Condition="!Exists('packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets'))" />-->
-    <!--<Error Condition="!Exists('packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets'))" />-->
-    <!--<Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
-    <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />-->
-    <!--<Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
-    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
-    <Error Condition="!Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />-->
-  </Target>
   <!--<Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />-->
   <!--<Import Project="packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />-->
   <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
@@ -575,4 +899,14 @@ if $(ConfigurationName) == Release (
   <Import Project="packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <Import Project="packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets" Condition="Exists('packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets')" />
   <!--<Import Project="packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />-->
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\wyt._task_\_TEST_(Git\packages\EntityFramework.6.5.2\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\wyt._task_\_TEST_(Git\packages\EntityFramework.6.5.2\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\..\wyt._task_\_TEST_(Git\packages\EntityFramework.6.5.2\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\wyt._task_\_TEST_(Git\packages\EntityFramework.6.5.2\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\..\wyt._task_\_TEST_(Git\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\wyt._task_\_TEST_(Git\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets'))" />
+  </Target>
+  <Import Project="..\..\wyt._task_\_TEST_(Git\packages\EntityFramework.6.5.2\build\EntityFramework.targets" Condition="Exists('..\..\wyt._task_\_TEST_(Git\packages\EntityFramework.6.5.2\build\EntityFramework.targets')" />
+  <Import Project="..\..\wyt._task_\_TEST_(Git\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets" Condition="Exists('..\..\wyt._task_\_TEST_(Git\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" />
 </Project>

@@ -24,8 +24,16 @@ namespace nilnul.task_
 	///		vacant
 	///		blank
 	///		vacuous
+	///		ceremony
+	///		benchmark
+	///		milestone
+	///		
+	/// vs:
+	///	<see cref="IMask"/>
+	///		,the time of which is long
 	///		
 	public interface IEmpty:ITask
 	{
 	}
+
 }

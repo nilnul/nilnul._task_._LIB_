@@ -20,6 +20,7 @@
 	///		stay
 	///		belay
 	///		left
+	///		
 	public interface IStopped :IBegun
 	{
 		

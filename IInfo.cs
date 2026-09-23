@@ -17,7 +17,11 @@ namespace nilnul.task
 	/// </remarks>
     /// alias:
     ///		meta
+	///		data
+	///		info
+	///		spec
 	internal class IInfo
 	{
 	}
+
 }

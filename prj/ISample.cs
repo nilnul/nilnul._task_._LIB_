@@ -14,8 +14,12 @@ namespace nilnul.task.prj
 	/// to: <see cref="task.prj_.IDefinite"/>
 	///
 	/// </remarks>
+	/// vs:
+	///		<see cref="task.prj.duration.dist.ISample"/>
 	public interface ISample
-		
 	{
 	}
+
+
+
 }

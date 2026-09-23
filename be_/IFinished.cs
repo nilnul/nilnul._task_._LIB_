@@ -11,4 +11,5 @@ namespace nilnul.task.be_
 	///			, whether in <see cref="nilnul.task.note"/> as <see cref="nilnul.xml.IXec"/>, the value of the key done is 1.
 	/// </remarks>
 	public interface IFinished:begun_.stopped_.ISucced { }
+
 }

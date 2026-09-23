@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.tasks
 {
+	/// seize the main contradiction;
 	/// <summary>
 	/// 20% of tasks give you 80% of the results;
 	/// So spend 80% efforts on 20% tasks;

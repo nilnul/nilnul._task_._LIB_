@@ -39,21 +39,4 @@ namespace nilnul.task.slate.vs_
 	{
 
 	}
-
-	static public class _EncompassX
-	{
-		/// <summary>
-		/// 
-		/// </summary>
-		/// alternatives:
-		///		item
-		///		constituent
-		///		part
-		///		component
-		///		member
-		///		comprised
-		///		constituent
-		public const string MEMBER_KEY = "constituent";
-
-	}
 }

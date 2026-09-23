@@ -4,4 +4,5 @@
 	/// eg:recurring tasks;
 	/// </summary>
 	interface ISeq { }
+
 }

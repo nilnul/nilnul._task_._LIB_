@@ -17,8 +17,12 @@ namespace nilnul.task.be_
 	///		no action;
 	///		donot do
 	///		not task
+	///		passive
+	///		nop
 	///		
 	internal class IIgnorable
 	{
 	}
+
+
 }

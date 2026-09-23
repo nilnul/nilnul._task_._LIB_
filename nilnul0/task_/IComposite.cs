@@ -20,6 +20,8 @@ namespace nilnul.task_
 	///
 	/// <see cref="nilnul.task.re_.ISibling"/>
 	/// <see cref="nilnul.task.re_.IAffiliate"/>
+	/// 
+	/// vs:<see cref="IGrasp"/>
 	internal class IComposite
 	{
 	}
