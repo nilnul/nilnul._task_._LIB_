@@ -137,7 +137,7 @@
       <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul.collection_._discrete_._LIB_.1.1.241123.135147\lib\net48\nilnul.collection_._discrete_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.geometry._planar_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul.geometry._planar_._LIB_.1.1.251019.71911\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul.geometry._planar_._LIB_.1.1.260925.80753\lib\net48\nilnul.geometry._planar_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.lang_._cognom_._LIB_, Version=2.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul.lang_._cognom_._LIB_.2.0.250301.125903\lib\net48\nilnul.lang_._cognom_._LIB_.dll</HintPath>
@@ -188,7 +188,7 @@
       <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._discrete_._LIB_.1.0.260811.41145\lib\net48\nilnul._discrete_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._fs_._LIB_.2.1.260922.125930\lib\net48\nilnul._fs_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._fs_._LIB_.2.1.261005.73734\lib\net48\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._geometry_._LIB_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._geometry_._LIB_.1.0.250905.105258\lib\net48\nilnul._geometry_._LIB_.dll</HintPath>
@@ -224,10 +224,10 @@
       <HintPath>packages\nilnul._stat_._LIB_.1.1.250711.43105\lib\net48\nilnul._stat_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._time_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._time_._LIB_.1.1.260907.23858\lib\net48\nilnul._time_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._time_._LIB_.1.1.261011.75721\lib\net48\nilnul._time_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._txt_._LIB_.1.1.260922.140957\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._txt_._LIB_.1.1.261010.43853\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._win_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\wyt._task_\_TEST_(Git\packages\nilnul._win_._LIB_.1.1.260807.50430\lib\net48\nilnul._win_._LIB_.dll</HintPath>
@@ -369,11 +369,32 @@
     <Compile Include="attr_\IColor.cs" />
     <Compile Include="attr_\IDuration.cs" />
     <Compile Include="attr_\IEndo.cs" />
-    <Compile Include="bi_\IAbsorb.cs" />
+    <Compile Include="bi_\IMerge.cs" />
+    <Compile Include="bi_\_merge_\by_\IAppend.cs" />
+    <Compile Include="bi_\_merge_\by_\ISediment.cs" />
     <Compile Include="IBi.cs" />
     <Compile Include="co_\dup\alesce_\IMerge.cs" />
     <Compile Include="IRel.cs" />
+    <Compile Include="nilnul0\task_\begun_\IAborted.cs" />
+    <Compile Include="nilnul0\task_\begun_\IUnAborted.cs" />
+    <Compile Include="nilnul0\task_\idle_\IMarker.cs" />
+    <Compile Include="nilnul0\task_\idle_\_mark_\_MarkX.cs" />
+    <Compile Include="nilnul0\task_\IAborted.cs" />
+    <Compile Include="nilnul0\task_\IBegun.cs" />
+    <Compile Include="nilnul0\task_\ICancelled.cs" />
+    <Compile Include="nilnul0\task_\IEnded.cs" />
+    <Compile Include="nilnul0\task_\IFailed.cs" />
+    <Compile Include="nilnul0\task_\IFinished.cs" />
+    <Compile Include="nilnul0\task_\IPrecursor.cs" />
+    <Compile Include="nilnul0\task_\ITerminated.cs" />
+    <Compile Include="nilnul0\task_\IUnbegun.cs" />
+    <Compile Include="nilnul0\task_\IUncancelled.cs" />
+    <Compile Include="nilnul0\task_\unbegun\op_\ICancel.cs" />
+    <Compile Include="nilnul0\task_\unbegun_\ICancelled.cs" />
+    <Compile Include="nilnul0\task_\unbegun_\IUnCancelled.cs" />
+    <Compile Include="nilnul0\task_\IIdle.cs" />
     <Compile Include="nilnul0\time\duration\be_\tasK_\INegligible.cs" />
+    <Compile Include="nilnul0\time\duration\op_\tasK_\_AberrateX.cs" />
     <Compile Include="nilnul0\time\duration_\tasK_\IOneLine.cs" />
     <Compile Include="nilnul0\_time\clock\op_\shrink_\_SkitX.cs" />
     <Compile Include="nilnul0\time\duration\be_\tasK_\_minimis\Settings1.Designer.cs">
@@ -446,7 +467,7 @@
     <Compile Include="nilnul0\task_\IPlace.cs" />
     <Compile Include="nilnul0\task_\IArchive.cs" />
     <Compile Include="nilnul0\task_\ITrigger.cs" />
-    <Compile Include="nilnul0\task_\mark_\_SealX.cs" />
+    <Compile Include="nilnul0\task_\idle_\mark_\_SealX.cs" />
     <Compile Include="nilnul0\task_\place_\IFretch.cs" />
     <Compile Include="nilnul0\task_\IProcure.cs" />
     <Compile Include="nilnul0\task_\place_\IResettle.cs" />
@@ -502,6 +523,7 @@
     <Compile Include="slate\IOccur.cs" />
     <Compile Include="slate\IRe.cs" />
     <Compile Include="slate\occur\re_\IExecution.cs" />
+    <Compile Include="slate\op_\ISuspend.cs" />
     <Compile Include="slate\re_\aft_\IImmediate.cs" />
     <Compile Include="slate\re_\comprise_\IWithin.cs" />
     <Compile Include="slate\re_\comprise_\IInclude.cs" />
@@ -515,7 +537,7 @@
     <Compile Include="IName.cs" />
     <Compile Include="INote.cs" />
     <Compile Include="ITag.cs" />
-    <Compile Include="nilnul0\task_\_MaskX.cs" />
+    <Compile Include="nilnul0\task_\_idle_\_MaskX.cs" />
     <Compile Include="nilnul0\_task_\INote.cs" />
     <Compile Include="prjs\IProgress.cs" />
     <Compile Include="rel_\_IcalX.cs" />
@@ -554,10 +576,10 @@
     <Compile Include="nilnul0\deed_\IReconciled.cs" />
     <Compile Include="nilnul0\deed_\IRecorded.cs" />
     <Compile Include="nilnul0\IDeed.cs" />
-    <Compile Include="nilnul0\task_\IMark.cs" />
-    <Compile Include="nilnul0\task_\mark_\ISeal.cs" />
+    <Compile Include="nilnul0\task_\idle_\_mark_\IMark.cs" />
+    <Compile Include="nilnul0\task_\idle_\mark_\ISeal.cs" />
     <Compile Include="nilnul0\tasks\IMajor9minor.cs" />
-    <Compile Include="nilnul0\task_\IMask.cs" />
+    <Compile Include="nilnul0\task_\_idle_\IMask.cs" />
     <Compile Include="nilnul0\task_\IReadOnly.cs" />
     <Compile Include="nilnul0\task_\mask\IActual.cs" />
     <Compile Include="nilnul0\time\bound_\ISprint.cs" />
@@ -573,7 +595,7 @@
     <Compile Include="rel_\dac_\IFusiform.cs" />
     <Compile Include="rel_\dac_\IUnimax.cs" />
     <Compile Include="rel_\ISubsequent.cs" />
-    <Compile Include="rel_\IGang.cs" />
+    <Compile Include="rel_\IAnatomy.cs" />
     <Compile Include="rel_\IPrecedent.cs" />
     <Compile Include="rel_\prec\nodes_\IPrj.cs" />
     <Compile Include="rel_\prec\nodes_\prj\of_\IConstruct.cs" />
@@ -624,6 +646,12 @@
     <Compile Include="slate_\recur\IHiatus.cs" />
     <Compile Include="slate_\recur\IOccurence.cs" />
     <Compile Include="slate_\recur\tail\IRevise.cs" />
+    <Compile Include="slot\recur_\_once\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="slot\recur_\_once\SettingsX.cs" />
     <Compile Include="slot\_recur_\ITorso.cs" />
     <Compile Include="slot_\eg_\IPlace.cs" />
     <Compile Include="slot_\eg_\IProcure.cs" />
@@ -632,7 +660,10 @@
     <Compile Include="slot_\eg_\procure_\IRent.cs" />
     <Compile Include="slot_\eg_\procure_\IReservoir.cs" />
     <Compile Include="slot_\eg_\procure_\_fetch\INotification.cs" />
+    <Compile Include="slot_\idle_\IMarker.cs" />
+    <Compile Include="slot_\IIdle.cs" />
     <Compile Include="vs_\js_\IMicroTask.cs" />
+    <Compile Include="_prj_\IGoal.cs" />
     <Compile Include="_slot_\Slot.cs" />
     <Compile Include="slate_\_as_\ILog.cs" />
     <Compile Include="slate_\_recur\IPeriods.cs" />
@@ -713,7 +744,7 @@
     <Compile Include="ISlot.cs" />
     <Compile Include="nilnul0\ITask.cs" />
     <Compile Include="nilnul0\task_\IDecomposable.cs" />
-    <Compile Include="nilnul0\task_\IDoodle.cs" />
+    <Compile Include="nilnul0\task_\_idle_\IEmpty.cs" />
     <Compile Include="nilnul0\task_\IProject.cs" />
     <Compile Include="nilnul0\task_\IRequest4decompose.cs" />
     <Compile Include="prj\ISample.cs" />
@@ -779,6 +810,7 @@
     <Folder Include="slate\co_\aft\" />
     <Folder Include="slate\co_\_aft\" />
     <Folder Include="slot\%28timepoint\" />
+    <Folder Include="slot_\_hollow_\" />
     <Folder Include="svr_\api_\" />
   </ItemGroup>
   <ItemGroup>
@@ -815,8 +847,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
     </None>
-    <None Include="packages.config" />
     <None Include="slot\recur_\task2rel2recur.cd" />
+    <None Include="slot\recur_\_once\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
     <None Include="_rel\_name\Settings1.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings1.Designer.cs</LastGenOutput>

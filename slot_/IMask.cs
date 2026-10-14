@@ -8,6 +8,7 @@ namespace nilnul.task.slot_
 {
 	/// <see cref="slot.be_.IStipulated"/>
 	/// <summary>
+	/// a slot for <see cref="task_.IEmpty"/>
 	/// for a task's <see cref="task.duration"/>, we gave enough period of time for it; that is a bigger period of time.
 	/// the duration can be stored in the note, or in the attrs (eg: google task extended attrs)
 	/// </summary>
@@ -16,7 +17,9 @@ namespace nilnul.task.slot_
 	/// The actual ending time can also be adjusted. and old de jure time can also be stored somewhere like the note or the attrs (extended as a dict).
 	/// 
 	/// </remarks>
-	internal class IMask
+	/// alias:
+	///		mask
+	internal interface IMask:task.ISlot
 	{
 	}
 }

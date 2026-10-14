@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.task.bi_
+namespace nilnul.task.bi_._merge_.by_
 {
 	/// <summary>
 	/// for task x!= y
@@ -19,7 +19,13 @@ namespace nilnul.task.bi_
 	///		merge, which means earlier taking late one
 	///		;;;;;;;;
 	///		embed, which means x embedds into y
-	public interface IAbsorb:task.IBi
+	///		reside
+	///		sediment
+	///		
+	///		
+	interface ISediment:task.IBi
 	{
 	}
+
+
 }

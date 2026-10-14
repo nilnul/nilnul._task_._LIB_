@@ -19,20 +19,29 @@ namespace nilnul
 	/// we can also group some tasks, and we can then apply prjMgt to that planner; <see cref="nilnul.task.slates.IChronicle"/> can be taken as a prj, and we have multiple prjs running parallelly;
 	/// </remarks>
 	/// alias:
+	///		act
 	///		activity
+	///		action
+	///		transaction
+	///			,in finance accounting, or database
+	///		
 	///		todo
 	///		task
 	///			"t"ime
 	///		
-	///		job
 	///		task2do
-	///		act
+	///		
+	///		job
+	///		
 	///		perf
 	///		duty
+	///		
 	///		gig
 	///		work
 	///		case
+	///		deal
 	///		deed
+	///		
 	///		待办事项
 	///	；
 	///	

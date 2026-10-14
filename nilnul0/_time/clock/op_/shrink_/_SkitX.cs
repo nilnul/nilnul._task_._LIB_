@@ -6,9 +6,11 @@ namespace nilnul._time.clock.op_.shrink_
 	/// <summary>
 	///  when the latter task is scheduled, it's deferred for a small margin, proportional to the former task within the day.
 	///  This way, it keeps the track of the former task.
+	///  If there is no former task, then the current clock (when the task is built in program now) is used
 	/// </summary>
 	/// <remarks>
-	/// usually we take the END time of the preceding task, such that its duration is skittable. And we apply the skit on the BEGIN time of the ending task. Afterall, it's an  endBeforeBegin relation.
+	/// usually we take the END time of the preceding task, such that its duration is skittable. So, we apply the skit on the BEGIN time of the ending task. Afterall, it's an  endBeforeBegin relation.  the skit can be based on the current clock of the day.
+	/// on top of this, the duration can be perturbed by an intrinsic property, such as the summary of the vent, so that it acts as a digital signature cross checkable by these two properties
 	/// </remarks>
 	/// alias:
 	///		skit
@@ -54,7 +56,7 @@ namespace nilnul._time.clock.op_.shrink_
 		}
 
 		/// <summary>
-		/// 
+		///  shrink a clock of the day to a fraction of a range.
 		/// </summary>
 		/// <param name="clockPrev"></param>
 		/// <param name="rangeAsMinutes">
@@ -79,6 +81,14 @@ namespace nilnul._time.clock.op_.shrink_
  ) ;
 		}
 
+
+ 		static public TimeSpan Skitter(
+			
+			int rangeAsMinutes=5
+		)
+		{
+			return  Skitter(DateTime.Now.TimeOfDay, rangeAsMinutes) ;
+		}
 	
 
 	}

@@ -27,5 +27,6 @@ namespace nilnul.task_
 	///		action
 	///		act
 	///
+
 	public interface IMask { }
 }

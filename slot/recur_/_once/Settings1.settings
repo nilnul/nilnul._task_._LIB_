@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="nilnul.task.slot.recur_._once" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="basis" Type="System.TimeSpan" Scope="User">
+      <Value Profile="(Default)">02:30:00</Value>
+    </Setting>
+    <Setting Name="until" Type="System.TimeSpan" Scope="User">
+      <Value Profile="(Default)">05:00:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

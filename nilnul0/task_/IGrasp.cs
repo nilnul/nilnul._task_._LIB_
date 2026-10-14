@@ -14,6 +14,7 @@ namespace nilnul.task_
     ///     comprise
     ///     group
     ///     grasp
+    ///     master
     /// ;vs:
     ///     <see cref="task.attr_.endo_.anatom_.IWhole"/>
     ///     
